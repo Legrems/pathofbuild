@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="85" targetVersion="3_0" banditNormal="None" banditMerciless="None" className="Ranger" ascendClassName="Deadeye" mainSocketGroup="1" viewMode="ITEMS" banditCruel="None">
+		<PlayerStat stat="AverageDamage" value="283.09715343936"/>
+		<PlayerStat stat="Speed" value="1.703"/>
+		<PlayerStat stat="Speed" value="1.703"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="23.76"/>
+		<PlayerStat stat="CritChance" value="18.5328"/>
+		<PlayerStat stat="CritMultiplier" value="2.39"/>
+		<PlayerStat stat="HitChance" value="78"/>
+		<PlayerStat stat="TotalDPS" value="482.11445230723"/>
+		<PlayerStat stat="TotalDot" value="0"/>
+		<PlayerStat stat="WithPoisonDPS" value="482.11445230723"/>
+		<PlayerStat stat="ManaCost" value="0"/>
+		<PlayerStat stat="Str" value="124"/>
+		<PlayerStat stat="ReqStr" value="0"/>
+		<PlayerStat stat="Dex" value="222"/>
+		<PlayerStat stat="ReqDex" value="170"/>
+		<PlayerStat stat="Int" value="274"/>
+		<PlayerStat stat="ReqInt" value="0"/>
+		<PlayerStat stat="Life" value="2677"/>
+		<PlayerStat stat="Spec:LifeInc" value="128"/>
+		<PlayerStat stat="LifeUnreserved" value="2677"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegen" value="40.155"/>
+		<PlayerStat stat="LifeLeechGainRate" value="11.226837809229"/>
+		<PlayerStat stat="Mana" value="681"/>
+		<PlayerStat stat="Spec:ManaInc" value="0"/>
+		<PlayerStat stat="ManaUnreserved" value="681"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="100"/>
+		<PlayerStat stat="ManaRegen" value="20.5"/>
+		<PlayerStat stat="ManaLeechGainRate" value="0"/>
+		<PlayerStat stat="EnergyShield" value="23"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="35"/>
+		<PlayerStat stat="EnergyShieldRegen" value="0"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
+		<PlayerStat stat="Evasion" value="718"/>
+		<PlayerStat stat="Spec:EvasionInc" value="89"/>
+		<PlayerStat stat="MeleeEvadeChance" value="5"/>
+		<PlayerStat stat="MeleeEvadeChance" value="5"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="5"/>
+		<PlayerStat stat="Armour" value="0"/>
+		<PlayerStat stat="Spec:ArmourInc" value="0"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="0"/>
+		<PlayerStat stat="EffectiveMovementSpeedMod" value="1.09"/>
+		<PlayerStat stat="BlockChance" value="0"/>
+		<PlayerStat stat="SpellBlockChance" value="0"/>
+		<PlayerStat stat="AttackDodgeChance" value="0"/>
+		<PlayerStat stat="SpellDodgeChance" value="0"/>
+		<PlayerStat stat="FireResist" value="-39"/>
+		<PlayerStat stat="ColdResist" value="-29"/>
+		<PlayerStat stat="LightningResist" value="-14"/>
+		<PlayerStat stat="ChaosResist" value="-60"/>
+		<PlayerStat stat="FireResistOverCap" value="0"/>
+		<PlayerStat stat="ColdResistOverCap" value="0"/>
+		<PlayerStat stat="LightningResistOverCap" value="0"/>
+		<PlayerStat stat="ChaosResistOverCap" value="0"/>
+		<PlayerStat stat="PowerCharges" value="0"/>
+		<PlayerStat stat="PowerChargesMax" value="3"/>
+		<PlayerStat stat="FrenzyCharges" value="0"/>
+		<PlayerStat stat="FrenzyChargesMax" value="3"/>
+		<PlayerStat stat="EnduranceCharges" value="0"/>
+		<PlayerStat stat="EnduranceChargesMax" value="3"/>
+	</Build>
+	<Import/>
+	<Calcs>
+		<Input name="skill_number" number="1"/>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Section collapsed="nil" id="SkillSelect"/>
+		<Section collapsed="nil" id="HitDamage"/>
+		<Section collapsed="nil" id="Dot"/>
+		<Section collapsed="nil" id="Speed"/>
+		<Section collapsed="nil" id="Crit"/>
+		<Section collapsed="nil" id="HitChance"/>
+		<Section collapsed="nil" id="SkillTypeStats"/>
+		<Section collapsed="nil" id="Bleed"/>
+		<Section collapsed="nil" id="Poison"/>
+		<Section collapsed="nil" id="Ignite"/>
+		<Section collapsed="nil" id="Decay"/>
+		<Section collapsed="nil" id="LeechGain"/>
+		<Section collapsed="nil" id="MiscEffects"/>
+		<Section collapsed="nil" id="Attributes"/>
+		<Section collapsed="nil" id="Life"/>
+		<Section collapsed="nil" id="Mana"/>
+		<Section collapsed="nil" id="EnergyShield"/>
+		<Section collapsed="nil" id="Armour"/>
+		<Section collapsed="nil" id="Evasion"/>
+		<Section collapsed="nil" id="Resist"/>
+		<Section collapsed="nil" id="DamageTaken"/>
+		<Section collapsed="nil" id="MiscDefences"/>
+	</Calcs>
+	<Skills defaultGemQuality="nil" defaultGemLevel="nil" sortGemsByDPS="true"/>
+	<Tree activeSpec="1">
+		<Spec treeVersion="3_7">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAICABzcfXXsOI8aE9rEoha_-wnw1QBeYRBsjIV7VcYtH8BmbWzyuMMJJpUG5ycvD8RmVCycuJObtbmT8h0ZijD47-uJ09Wmgpuu_6IAH0EEs2lOKPpVS5itjDZMs7VIDlyuswVC8YrDOnyDIuq74zLRlS5FR4_66NYajwcef8adqkV-QZbP3dD1g9sEB6QF6b062JuN0B_tg_baES0agTY9kFURlvC7cFJh4pUgO3y4ymr6_rqio5hTGY7TflF053RTz0lRDkhd8pcGhMWxARvIKgvB86aZCC7r7uv1
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="28475" itemId="0"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="60735" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="26725" itemId="0"/>
+			</Sockets>
+		</Spec>
+	</Tree>
+	<Notes>
+		
+	</Notes>
+	<TreeView searchStr="fire" zoomY="251.58" showHeatMap="nil" zoomLevel="6" showStatDifferences="true" zoomX="-246.632"/>
+	<Items activeItemSet="1" useSecondWeaponSet="nil">
+		<Item id="1">
+			Rarity: RARE
+Plague Wing
+Decimation Bow
+Shaper Item
+Item Level: 80
+Quality: 20
+Sockets: G-G-G-G-G G
+LevelReq: 53
+Implicits: 1
+44% increased Critical Strike Chance
+Socketed Gems are supported by Level 18 Cast On Critical Strike
+9% increased Attack Speed
+Damage Penetrates 7% Elemental Resistances
+20% chance to deal Double Damage
+{crafted}Can have multiple Crafted Modifiers
+{crafted}+2 to Level of Socketed Support Gems
+{crafted}{range:0.5}(73-80)% increased Fire Damage
+{crafted}{range:0.5}(21-23)% chance to Ignite
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+		</Item>
+		<Item id="2">
+			Rarity: UNIQUE
+Rigwald&apos;s Quills
+Two-Point Arrow Quiver
+League: Talisman Standard, Talisman Hardcore
+LevelReq: 56
+Implicits: 1
+{range:0.5}(20-30)% increased Accuracy Rating
+-10% to Fire Resistance
+{range:0.5}+(20-30)% to Lightning Resistance
++7 Life gained for each Enemy hit by your Attacks
+20% reduced Projectile Speed
+{range:0.5}(30-50)% increased Projectile Damage
+Projectiles Fork
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item id="3">
+			Rarity: UNIQUE
+Gloomfang
+Blue Pearl Amulet
+LevelReq: 77
+Implicits: 1
+{range:0.5}(48-56)% increased Mana Regeneration Rate
+0.5% of Chaos Damage Leeched as Life
+Lose (10-15) Life for each Enemy hit by your Spells
+Lose (20-25) Life for each Enemy hit by your Attacks
+Skills Chain +1 times
+{range:0.5}Projectiles gain (15-20)% of Non-Chaos Damage as extra Chaos Damage per Chain
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item variant="2" id="4">
+			Rarity: UNIQUE
+Snakepit
+Sapphire Ring
+Variant: 3.5.0
+Variant: Current
+Selected Variant: 2
+LevelReq: 68
+Implicits: 1
+{range:0.5}+(20-30)% to Cold Resistance
+{range:0.5}(20-40)% increased Cold Damage
+{range:0.5}(5-10)% increased Cast Speed
+{variant:1}Spells have an additional Projectile
+{variant:2}Left ring slot: Projectiles from Spells cannot Chain
+{variant:2}Left ring slot: Projectiles from Spells Fork
+{variant:2}Right ring slot: Projectiles from Spells Chain +1 times
+{variant:2}Right ring slot: Projectiles from Spells cannot Fork
+{variant:2}Projectiles from Spells cannot Pierce
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+		</Item>
+		<Slot name="Weapon 1" itemId="1"/>
+		<Slot name="Amulet" itemId="3"/>
+		<Slot name="Weapon 2" itemId="2"/>
+		<ItemSet useSecondWeaponSet="nil" id="1">
+			<Slot name="Gloves" itemId="0"/>
+			<Slot name="Weapon 1" itemId="1"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
+			<Slot name="Flask 3" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 2" itemId="0"/>
+			<Slot name="Amulet" itemId="3"/>
+			<Slot name="Flask 1" itemId="0"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Flask 5" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 1" itemId="0"/>
+			<Slot name="Flask 2" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2 Swap" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 2" itemId="2"/>
+			<Slot name="Body Armour" itemId="0"/>
+			<Slot name="Flask 4" itemId="0"/>
+			<Slot name="Weapon 1 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 1 Swap" itemId="0"/>
+			<Slot name="Ring 2" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 2" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 2" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 1" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Boots" itemId="0"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Ring 1" itemId="0"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Helmet" itemId="0"/>
+			<Slot name="Boots Abyssal Socket 1" itemId="0"/>
+			<Slot name="Belt" itemId="0"/>
+		</ItemSet>
+	</Items>
+	<Config/>
+</PathOfBuilding>
