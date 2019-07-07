@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="100" targetVersion="3_0" banditNormal="None" bandit="Alira" banditMerciless="None" className="Duelist" ascendClassName="Champion" mainSocketGroup="1" viewMode="TREE" banditCruel="None">
+		<PlayerStat stat="AverageDamage" value="142916.05563952"/>
+		<PlayerStat stat="Speed" value="10.4144"/>
+		<PlayerStat stat="Speed" value="10.4144"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="54.1436"/>
+		<PlayerStat stat="CritChance" value="78.97154403"/>
+		<PlayerStat stat="CritMultiplier" value="5"/>
+		<PlayerStat stat="HitChance" value="100"/>
+		<PlayerStat stat="TotalDPS" value="4465154.9095565"/>
+		<PlayerStat stat="TotalDot" value="0"/>
+		<PlayerStat stat="IgniteDPS" value="601.77938981601"/>
+		<PlayerStat stat="PoisonDPS" value="907.73275646386"/>
+		<PlayerStat stat="PoisonDamage" value="1815.4655129277"/>
+		<PlayerStat stat="WithPoisonDPS" value="4476499.0999792"/>
+		<PlayerStat stat="AreaOfEffectRadius" value="11"/>
+		<PlayerStat stat="ManaCost" value="14"/>
+		<PlayerStat stat="Str" value="288"/>
+		<PlayerStat stat="ReqStr" value="155"/>
+		<PlayerStat stat="Dex" value="285"/>
+		<PlayerStat stat="ReqDex" value="212"/>
+		<PlayerStat stat="Int" value="132"/>
+		<PlayerStat stat="ReqInt" value="111"/>
+		<PlayerStat stat="Life" value="5793"/>
+		<PlayerStat stat="Spec:LifeInc" value="158"/>
+		<PlayerStat stat="LifeUnreserved" value="5793"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegen" value="370.752"/>
+		<PlayerStat stat="LifeLeechGainRate" value="1158.6"/>
+		<PlayerStat stat="Mana" value="773"/>
+		<PlayerStat stat="Spec:ManaInc" value="0"/>
+		<PlayerStat stat="ManaUnreserved" value="115"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="14.877102199224"/>
+		<PlayerStat stat="ManaRegen" value="18.5"/>
+		<PlayerStat stat="ManaLeechGainRate" value="154.6"/>
+		<PlayerStat stat="TotalDegen" value="201.0096"/>
+		<PlayerStat stat="NetLifeRegen" value="169.7424"/>
+		<PlayerStat stat="EnergyShield" value="147"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="0"/>
+		<PlayerStat stat="EnergyShieldRegen" value="0"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
+		<PlayerStat stat="Evasion" value="3977"/>
+		<PlayerStat stat="Spec:EvasionInc" value="96"/>
+		<PlayerStat stat="MeleeEvadeChance" value="0"/>
+		<PlayerStat stat="MeleeEvadeChance" value="0"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="0"/>
+		<PlayerStat stat="Armour" value="5072"/>
+		<PlayerStat stat="Spec:ArmourInc" value="96"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="41"/>
+		<PlayerStat stat="EffectiveMovementSpeedMod" value="1.25"/>
+		<PlayerStat stat="BlockChance" value="14.7"/>
+		<PlayerStat stat="SpellBlockChance" value="0"/>
+		<PlayerStat stat="AttackDodgeChance" value="40"/>
+		<PlayerStat stat="SpellDodgeChance" value="30"/>
+		<PlayerStat stat="FireResist" value="76"/>
+		<PlayerStat stat="ColdResist" value="80"/>
+		<PlayerStat stat="LightningResist" value="73"/>
+		<PlayerStat stat="ChaosResist" value="-25"/>
+		<PlayerStat stat="FireResistOverCap" value="0"/>
+		<PlayerStat stat="ColdResistOverCap" value="13"/>
+		<PlayerStat stat="LightningResistOverCap" value="0"/>
+		<PlayerStat stat="ChaosResistOverCap" value="0"/>
+		<PlayerStat stat="PowerCharges" value="0"/>
+		<PlayerStat stat="PowerChargesMax" value="3"/>
+		<PlayerStat stat="FrenzyCharges" value="0"/>
+		<PlayerStat stat="FrenzyChargesMax" value="3"/>
+		<PlayerStat stat="EnduranceCharges" value="0"/>
+		<PlayerStat stat="EnduranceChargesMax" value="3"/>
+	</Build>
+	<Import lastAccountHash="dcb42204e91ffaf0d4602d3dc3e582bffc765261" lastCharacterHash="6368c145bdba22fb16cfabe9e4ead28ff5b4de75"/>
+	<Calcs>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Input name="skill_number" number="1"/>
+		<Section collapsed="false" id="SkillSelect"/>
+		<Section collapsed="false" id="HitDamage"/>
+		<Section collapsed="false" id="Dot"/>
+		<Section collapsed="false" id="Speed"/>
+		<Section collapsed="false" id="Crit"/>
+		<Section collapsed="false" id="HitChance"/>
+		<Section collapsed="false" id="SkillTypeStats"/>
+		<Section collapsed="false" id="Bleed"/>
+		<Section collapsed="false" id="Poison"/>
+		<Section collapsed="false" id="Ignite"/>
+		<Section collapsed="false" id="Decay"/>
+		<Section collapsed="false" id="LeechGain"/>
+		<Section collapsed="false" id="MiscEffects"/>
+		<Section collapsed="false" id="Attributes"/>
+		<Section collapsed="false" id="Life"/>
+		<Section collapsed="false" id="Mana"/>
+		<Section collapsed="false" id="EnergyShield"/>
+		<Section collapsed="false" id="Armour"/>
+		<Section collapsed="false" id="Evasion"/>
+		<Section collapsed="false" id="Resist"/>
+		<Section collapsed="false" id="DamageTaken"/>
+		<Section collapsed="false" id="MiscDefences"/>
+	</Calcs>
+	<Skills defaultGemQuality="nil" defaultGemLevel="nil" sortGemsByDPS="true">
+		<Skill mainActiveSkillCalcs="1" label="BF - Single Target" enabled="true" slot="Body Armour" mainActiveSkill="1">
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemChargedAttack" enableGlobal2="false" quality="23" skillPart="3" skillId="ChargedAttack" skillPartCalcs="1" enabled="true" nameSpec="Blade Flurry" skillMinion="SummonedPhantasm"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" enableGlobal2="false" quality="0" skillId="SupportDamageAgainstChilled" enabled="true" nameSpec="Hypothermia"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemConcentratedEffect" enableGlobal2="false" quality="20" skillId="SupportConcentratedEffect" enabled="true" nameSpec="Concentrated Effect"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMaim" enableGlobal2="false" quality="20" skillId="SupportMaim" enabled="true" nameSpec="Maim"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMeleePhysicalDamage" enableGlobal2="false" quality="20" skillId="SupportMeleePhysicalDamage" enabled="true" nameSpec="Melee Physical Damage"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemWeaponElementalDamage" enableGlobal2="false" quality="20" skillId="SupportWeaponElementalDamage" enabled="true" nameSpec="Elemental Damage with Attacks"/>
+			<Gem level="21" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemAddedFireDamage" enableGlobal2="false" quality="20" skillId="SupportAddedFireDamage" enabled="false" nameSpec="Added Fire Damage"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="Reave - Map Clear" enabled="true" mainActiveSkill="2">
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemVaalReave" enableGlobal2="false" quality="20" skillPart="1" skillId="VaalReave" enabled="true" nameSpec="Vaal Reave" skillMinion="SummonedPhantasm"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMeleePhysicalDamage" enableGlobal2="false" quality="20" skillId="SupportMeleePhysicalDamage" enabled="true" nameSpec="Melee Physical Damage"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" enableGlobal2="false" quality="20" skillId="SupportDamageAgainstChilled" enabled="true" nameSpec="Hypothermia"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMaim" enableGlobal2="false" quality="20" skillId="SupportMaim" enabled="true" nameSpec="Maim"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMultistrike" enableGlobal2="false" quality="20" skillId="SupportMultistrike" enabled="true" nameSpec="Multistrike"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemIncreasedAreaOfEffect" enableGlobal2="false" quality="20" skillId="SupportIncreasedAreaOfEffect" enabled="true" nameSpec="Increased Area of Effect"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="Tec Slam - Map Clear option 2" enabled="true" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemTectonicSlam" enableGlobal2="false" quality="20" skillPart="1" skillId="EnduranceChargeSlam" enabled="true" nameSpec="Tectonic Slam" skillMinion="SummonedPhantasm"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMeleePhysicalDamage" enableGlobal2="false" quality="20" skillId="SupportMeleePhysicalDamage" enabled="true" nameSpec="Melee Physical Damage"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" enableGlobal2="false" quality="20" skillId="SupportDamageAgainstChilled" enabled="true" nameSpec="Hypothermia"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemWeaponElementalDamage" enableGlobal2="false" quality="20" skillId="SupportWeaponElementalDamage" enabled="true" nameSpec="Elemental Damage with Attacks"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMultistrike" enableGlobal2="false" quality="20" skillId="SupportMultistrike" enabled="true" nameSpec="Multistrike"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemIncreasedAreaOfEffect" enableGlobal2="false" quality="20" skillId="SupportIncreasedAreaOfEffect" enabled="true" nameSpec="Increased Area of Effect"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="VDS - Single Target Burst Support" enabled="true" slot="Weapon 1" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemVaalDoubleStrike" enableGlobal2="false" quality="20" skillId="VaalDoubleStrike" enabled="true" nameSpec="Vaal Double Strike"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMeleePhysicalDamage" enableGlobal2="false" quality="20" skillId="SupportMeleePhysicalDamage" enabled="true" nameSpec="Melee Physical Damage"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemChanceToBleed" enableGlobal2="false" quality="20" skillId="SupportChanceToBleed" enabled="true" nameSpec="Chance to Bleed"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 1 Swap" mainActiveSkill="1">
+			<Gem level="2" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemPunishment" enableGlobal2="false" quality="0" skillId="Punishment" enabled="true" nameSpec="Punishment"/>
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemBlasphemy" enableGlobal2="false" quality="0" skillId="SupportBlasphemy" enabled="true" nameSpec="Blasphemy"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemBloodMagic" enableGlobal2="false" quality="0" skillId="SupportBloodMagic" enabled="true" nameSpec="Blood Magic"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Weapon 2" mainActiveSkill="1">
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemColdSnap" enableGlobal2="false" quality="0" skillId="ColdSnap" enabled="false" nameSpec="Cold Snap" skillMinion="SummonedPhantasm"/>
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemCastOnDamageTaken" enableGlobal2="false" quality="0" skillId="SupportCastOnDamageTaken" enabled="true" nameSpec="Cast when Damage Taken"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemBloodRage" enableGlobal2="false" quality="20" skillId="BloodRage" enabled="true" nameSpec="Blood Rage"/>
+			<Gem level="1" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemFrostBomb" enableGlobal2="false" quality="0" skillPart="1" skillId="FrostBomb" enabled="true" nameSpec="Frost Bomb"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Gloves" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemLeapSlam" enableGlobal2="false" quality="0" skillId="LeapSlam" enabled="true" nameSpec="Leap Slam"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemBloodMagic" enableGlobal2="false" quality="0" skillId="SupportBloodMagic" enabled="true" nameSpec="Blood Magic"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemFortify" enableGlobal2="false" quality="0" skillId="SupportFortify" enabled="true" nameSpec="Fortify"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemFasterAttack" enableGlobal2="false" quality="20" skillId="SupportFasterAttack" enabled="true" nameSpec="Faster Attacks"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Helmet" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemHatred" enableGlobal2="false" quality="0" skillId="Hatred" enabled="true" nameSpec="Hatred"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/HeraldOfPurity" skillMinionSkill="1" enableGlobal2="false" quality="0" skillMinionSkillCalcs="1" skillId="HeraldOfPurity" enabled="true" nameSpec="Herald of Purity" skillMinion="AxisEliteSoldierHeraldOfLight"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Helmet" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemMeleeTotem" enableGlobal2="false" quality="0" skillId="TotemMelee" enabled="true" nameSpec="Ancestral Protector" skillMinion="SummonedPhantasm"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" slot="Helmet" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemWarBanner" enableGlobal2="false" quality="0" skillId="BloodstainedBanner" enabled="true" nameSpec="War Banner"/>
+		</Skill>
+		<Skill mainActiveSkillCalcs="1" label="" enabled="true" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SkillGemLancingSteel" enableGlobal2="false" quality="0" skillPart="1" skillId="LancingSteel" enabled="true" nameSpec="Lancing Steel" skillMinion="SummonedPhantasm"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemDamageAgainstChilled" enableGlobal2="false" quality="0" skillId="SupportDamageAgainstChilled" enabled="true" nameSpec="Hypothermia"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemPhysicalProjectileAttackDamage" enableGlobal2="false" quality="0" skillId="SupportPhysicalProjectileAttackDamage" enabled="true" nameSpec="Vicious Projectiles"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemMaim" enableGlobal2="false" quality="0" skillId="SupportMaim" enabled="true" nameSpec="Maim"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemChanceToBleed" enableGlobal2="false" quality="0" skillId="SupportChanceToBleed" enabled="true" nameSpec="Chance to Bleed"/>
+			<Gem level="20" enableGlobal1="true" gemId="Metadata/Items/Gems/SupportGemIncreasedCriticalDamage" enableGlobal2="false" quality="0" skillId="SupportIncreasedCriticalDamage" enabled="true" nameSpec="Increased Critical Damage"/>
+		</Skill>
+		<Skill source="Item:19:Onslaught Nail, Steel Ring" mainActiveSkillCalcs="1" label="" enabled="false" slot="Ring 2" mainActiveSkill="1">
+			<Gem level="20" enableGlobal1="true" enableGlobal2="false" quality="0" skillId="SpiderAspect" enabled="true" nameSpec="Aspect of the Spider"/>
+		</Skill>
+	</Skills>
+	<Tree activeSpec="1">
+		<Spec>
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAQDANlhW6_L9WwI9zK18gYgBS1sjHfjo4o6QulGFfaK8F8_UUdQRyP2vqfdqEd-YnmdqoTZz34uUzGwYEFLeOcP5FEX3FeXJP0Goq2N_95N42VNhVLAGnSgFeyNfQ2Njb831DWS_o9irJd51lhjcEMxwuzzm702i0-Sfdy97w4UINi9uR12rPGK2sHehzB87FzKkPzFh3btP5tq02_UUj0-EdUwccEEeWhoZQAGNj3cI1cNi6blz6lubzubLe4OTipr1OoYTP94DdQjG0YFtYSUtMUoKk2S51SYb_AmdO2qzdvnSn0B3A==
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="61834" itemId="46"/>
+				<Socket nodeId="28475" itemId="3"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="1"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="26725" itemId="34"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="33631" itemId="3"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="60735" itemId="13"/>
+				<Socket nodeId="2491" itemId="0"/>
+			</Sockets>
+		</Spec>
+		<Spec title="xp">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABAQDANlhW69h63pTaGW18gUti6Z3404qo4o6QulG_rpfP1FHdO0j9r6n3agbRujWCC6dqoTZz35r1AxzsbPtg2BBbztLeORR034k_TBxrY2mV03j8kX8xX11hVLAGoSUFeyNfQ2NN9Q1kv6PAF6XedZYshljcEMxwuzzm702i0_nVE2SFCCVZti9uR12rNrB3ocwfP4K7FxlTSgqh3btPzrhm2oDh4rw_94R1ZuN02_BBHloV5cZjjY9Vw0yAVBHqW5675stLlObJs96TP94DdQjjb9sjAW1tMXuDgHc7w5HfvAmYqyqzUp9ypA=
+			</URL>
+			<Sockets>
+				<Socket nodeId="7960" itemId="0"/>
+				<Socket nodeId="61834" itemId="0"/>
+				<Socket nodeId="28475" itemId="3"/>
+				<Socket nodeId="26196" itemId="0"/>
+				<Socket nodeId="36634" itemId="0"/>
+				<Socket nodeId="34483" itemId="0"/>
+				<Socket nodeId="21984" itemId="0"/>
+				<Socket nodeId="46882" itemId="0"/>
+				<Socket nodeId="61419" itemId="0"/>
+				<Socket nodeId="54127" itemId="1"/>
+				<Socket nodeId="31683" itemId="0"/>
+				<Socket nodeId="55190" itemId="0"/>
+				<Socket nodeId="48768" itemId="0"/>
+				<Socket nodeId="2491" itemId="0"/>
+				<Socket nodeId="60735" itemId="13"/>
+				<Socket nodeId="41263" itemId="0"/>
+				<Socket nodeId="6230" itemId="0"/>
+				<Socket nodeId="33631" itemId="0"/>
+				<Socket nodeId="33989" itemId="0"/>
+				<Socket nodeId="32763" itemId="0"/>
+				<Socket nodeId="26725" itemId="34"/>
+			</Sockets>
+		</Spec>
+	</Tree>
+	<Notes>
+		
+	</Notes>
+	<TreeView searchStr="" zoomY="-124.29171770213" showHeatMap="true" zoomLevel="4" showStatDifferences="true" zoomX="-114.8891730729"/>
+	<Items activeItemSet="1" useSecondWeaponSet="false">
+		<Item id="31">
+			Rarity: RARE
+Eagle Impaler
+Jewelled Foil
+Shaper Item
+Item Level: 86
+Quality: 45
+Sockets: R-R-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+Adds 19 to 33 Physical Damage
+Gain 19% of Physical Damage as Extra Fire Damage
+Can have multiple Crafted Modifiers
+117% increased Physical Damage
+17% increased Attack Speed
+22% increased Critical Strike Chance
++17% to Quality
+		</Item>
+		<Item id="8">
+			Rarity: NORMAL
+Darkwood Sceptre
+Unique ID: de7892e63415403ad2d4da865450860abbdeef93c477dfa9b71d4e0303a5ea63
+Item Level: 10
+Quality: 0
+Sockets: B-R-R
+LevelReq: 5
+Implicits: 1
+12% increased Elemental Damage
+		</Item>
+		<Item id="47">
+			Rarity: RARE
+Entropy Thirst
+Jewelled Foil
+Shaper Item
+Item Level: 84
+Quality: 56
+Sockets: W W W
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+Adds 22 to 47 Physical Damage
+Gain 20% of Physical Damage as Extra Cold Damage
+Can have multiple Crafted Modifiers
+127% increased Physical Damage
+13% increased Attack Speed
+23% increased Critical Strike Chance
++26% to Quality
+		</Item>
+		<Item id="14">
+			Rarity: RARE
+Gale Spiker
+Fancy Foil
+Unique ID: af0de4986a3c10c40c53f79cad3d332a417b94efd0e2a212b4aaeff94f205524
+Item Level: 71
+Quality: 0
+Sockets: G-G-R
+LevelReq: 52
+Implicits: 1
++25% to Global Critical Strike Multiplier
+61% increased Physical Damage
+20% increased Attack Speed
++34% to Fire Resistance
+32% reduced Attribute Requirements
++94 to Accuracy Rating
+		</Item>
+		<Item id="48">
+			Rarity: RARE
+Blight Slicer
+Jewelled Foil
+Shaper Item
+Item Level: 83
+Quality: 20
+Sockets: G-G-B
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+Adds 20 to 47 Physical Damage
+34% increased Critical Strike Chance
+{crafted}{range:0.5}(13-16)% increased Attack Speed
+{crafted}{range:0.5}+(13-18)% to Quality
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item id="9">
+			Rarity: RARE
+Dread Sever
+Jewelled Foil
+Unique ID: eb722bbb8eeee8fbdf3b6d97e507d30c5569a543c517ea4207ae01bffb304e3c
+Item Level: 71
+Quality: 28
+Sockets: R-B-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+170% increased Physical Damage
+21% increased Attack Speed
+20% increased Critical Strike Chance
++60 to Accuracy Rating
+{crafted}Adds 17 to 30 Physical Damage
+		</Item>
+		<Item id="42">
+			Rarity: RARE
+Gosulk&apos;s Sword - Perfect
+Jewelled Foil
+Shaper Item
+Item Level: 83
+Quality: 66
+Sockets: R-R-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+169% increased Physical Damage
+Adds 27 to 49 Physical Damage
+Can have multiple Crafted Modifiers
+16% increased Attack Speed
+25% increased Critical Strike Chance
++34% to Quality
+Gain 11% of Non-Chaos Damage as extra Chaos Damage
+		</Item>
+		<Item id="45">
+			Rarity: RARE
+New Foil Shaper
+Jewelled Foil
+Shaper Item
+Crafted: true
+Prefix: {range:1}LocalAddedPhysicalDamage9
+Prefix: {range:1}PhysicalAddedAsColdUber3
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 66
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+Adds 27 to 49 Physical Damage
+Gain 20% of Physical Damage as Extra Cold Damage
+{crafted}{range:1}(100-129)% increased Physical Damage
+{crafted}{range:1}(21-25)% increased Critical Strike Chance
+{crafted}{range:0.5}+(13-18)% to Quality
+{crafted}{range:1}(13-16)% increased Attack Speed
+{crafted}{range:0.5}+(13-18)% to Quality
+			<ModRange range="1" id="4"/>
+			<ModRange range="1" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="1" id="7"/>
+			<ModRange range="0.5" id="8"/>
+		</Item>
+		<Item id="30">
+			Rarity: RARE
+New Item
+Jewelled Foil
+Crafted: true
+Prefix: {range:1}LocalAddedPhysicalDamage9
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: {range:1}LocalIncreasedAttackSpeed8
+Suffix: None
+Quality: 20
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+Adds 25 to 49 Physical Damage
+27% increased Attack Speed
+		</Item>
+		<Item id="36">
+			Rarity: RARE
+New Item
+Jewelled Foil
+Crafted: true
+Prefix: None
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 20
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+		</Item>
+		<Item id="39">
+			Rarity: RARE
+PERFECT Dict Multi
+Jewelled Foil
+Crafted: true
+Prefix: {range:1}LocalIncreasedPhysicalDamagePercentAndAccuracyRating8
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 66
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+79% increased Physical Damage
++169 to Accuracy Rating
+{crafted}{range:1}(21-25)% increased Critical Strike Chance
+{crafted}{range:0.5}+(13-18)% to Quality
+{crafted}{range:1}(13-16)% increased Attack Speed
+{crafted}{range:0.5}+(13-18)% to Quality
+{crafted}{range:1}Adds (13-17) to (26-30) Physical Damage
+{crafted}{range:1}(100-129)% increased Physical Damage
+			<ModRange range="1" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="1" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="1" id="8"/>
+			<ModRange range="1" id="9"/>
+		</Item>
+		<Item id="49">
+			Rarity: RARE
+PERFECT EXTRA Multi
+Jewelled Foil
+Shaper Item
+Crafted: true
+Prefix: {range:1}PhysicalAddedAsFireUber3
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 66
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+Gain 20% of Physical Damage as Extra Fire Damage
+{crafted}{range:1}(100-129)% increased Physical Damage
+{crafted}{range:1}(21-25)% increased Critical Strike Chance
+{crafted}{range:0.5}+(13-18)% to Quality
+{crafted}{range:1}(13-16)% increased Attack Speed
+{crafted}{range:0.5}+(13-18)% to Quality
+{crafted}{range:1}Adds (13-17) to (26-30) Physical Damage
+			<ModRange range="1" id="3"/>
+			<ModRange range="1" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="1" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="1" id="8"/>
+		</Item>
+		<Item id="37">
+			Rarity: RARE
+PERFECT Flaring Multi
+Jewelled Foil
+Crafted: true
+Prefix: {range:1}LocalAddedPhysicalDamage9
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 66
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+Adds 27 to 49 Physical Damage
+{crafted}{range:1}(100-129)% increased Physical Damage
+{crafted}{range:1}Gain (10-11)% of Non-Chaos Damage as extra Chaos Damage
+{crafted}{range:1}(21-25)% increased Critical Strike Chance
+{crafted}{range:0.5}+(13-18)% to Quality
+{crafted}{range:1}(13-16)% increased Attack Speed
+{crafted}{range:0.5}+(13-18)% to Quality
+			<ModRange range="1" id="3"/>
+			<ModRange range="1" id="4"/>
+			<ModRange range="1" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="1" id="7"/>
+			<ModRange range="0.5" id="8"/>
+		</Item>
+		<Item id="38">
+			Rarity: RARE
+PERFECT Merc Multi
+Jewelled Foil
+Crafted: true
+Prefix: {range:1}LocalIncreasedPhysicalDamagePercent8
+Prefix: None
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 66
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+179% increased Physical Damage
+{crafted}{range:1}Gain (10-11)% of Non-Chaos Damage as extra Chaos Damage
+{crafted}{range:1}(21-25)% increased Critical Strike Chance
+{crafted}{range:0.5}+(13-18)% to Quality
+{crafted}{range:1}(13-16)% increased Attack Speed
+{crafted}{range:0.5}+(13-18)% to Quality
+{crafted}{range:1}Adds (13-17) to (26-30) Physical Damage
+			<ModRange range="1" id="3"/>
+			<ModRange range="1" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="1" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="1" id="8"/>
+		</Item>
+		<Item id="40">
+			Rarity: RARE
+PERFECT Shape Flaring Multi
+Jewelled Foil
+Shaper Item
+Crafted: true
+Prefix: {range:1}LocalAddedPhysicalDamage9
+Prefix: {range:1}PhysicalAddedAsColdUber3
+Prefix: None
+Suffix: None
+Suffix: None
+Suffix: None
+Quality: 66
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+Adds 27 to 49 Physical Damage
+Gain 20% of Physical Damage as Extra Cold Damage
+{crafted}{range:1}(21-25)% increased Critical Strike Chance
+{crafted}{range:0.5}+(13-18)% to Quality
+{crafted}{range:1}(13-16)% increased Attack Speed
+{crafted}{range:0.5}+(13-18)% to Quality
+{crafted}{range:1}(100-129)% increased Physical Damage
+			<ModRange range="1" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="1" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="1" id="8"/>
+		</Item>
+		<Item id="43">
+			Rarity: RARE
+Perf foil 2 Mods?
+Jewelled Foil
+Shaper Item
+Crafted: true
+Prefix: {range:1}LocalAddedPhysicalDamage9
+Prefix: {range:1}LocalIncreasedPhysicalDamagePercent8
+Prefix: {range:1}PhysicalAddedAsColdUber3
+Suffix: None
+Suffix: None
+Suffix: {range:1}LocalCriticalMultiplier6
+Quality: 66
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+179% increased Physical Damage
+Adds 27 to 49 Physical Damage
++38% to Global Critical Strike Multiplier
+Gain 20% of Physical Damage as Extra Cold Damage
+{crafted}{range:1}(21-25)% increased Critical Strike Chance
+{crafted}{range:0.5}+(13-18)% to Quality
+{crafted}{range:1}(13-16)% increased Attack Speed
+{crafted}{range:0.5}+(13-18)% to Quality
+			<ModRange range="1" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="1" id="8"/>
+			<ModRange range="0.5" id="9"/>
+		</Item>
+		<Item id="41">
+			Rarity: RARE
+Perf foil?
+Jewelled Foil
+Shaper Item
+Crafted: true
+Prefix: {range:1}LocalAddedPhysicalDamage9
+Prefix: {range:1}LocalIncreasedPhysicalDamagePercent8
+Prefix: {range:1}PhysicalAddedAsColdUber3
+Suffix: {range:1}LocalIncreasedAttackSpeed8
+Suffix: {range:1}LocalCriticalStrikeChance6
+Suffix: {range:1}LocalCriticalMultiplier6
+Quality: 20
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+179% increased Physical Damage
+Adds 27 to 49 Physical Damage
+27% increased Attack Speed
+38% increased Critical Strike Chance
++38% to Global Critical Strike Multiplier
+Gain 20% of Physical Damage as Extra Cold Damage
+		</Item>
+		<Item id="4">
+			Rarity: RARE
+Spirit Bane
+Jewelled Foil
+Unique ID: 5c41eab08f16c541ca47ae3391576fe8182d729627e416de67d3e6ab47ac328c
+Item Level: 70
+Quality: 20
+Sockets: R-R-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+96% increased Physical Damage
+23% increased Attack Speed
++23% to Global Critical Strike Multiplier
+28% increased Damage with Poison
+{crafted}Adds 16 to 30 Physical Damage
+		</Item>
+		<Item id="44">
+			Rarity: RARE
+Wrath Song REDUCED
+Jewelled Foil
+Shaper Item
+Item Level: 84
+Quality: 30
+Sockets: R-R-B
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+167% increased Physical Damage
+Adds 27 to 49 Physical Damage
+22% increased Attack Speed
+Gain 20% of Physical Damage as Extra Cold Damage
+Damage Penetrates 8% Elemental Resistances
+27% increased Critical Strike Chance
+		</Item>
+		<Item id="24">
+			Rarity: RARE
+shaper multi - max no qual
+Jewelled Foil
+Shaper Item
+Crafted: true
+Prefix: {range:0.369}LocalAddedPhysicalDamage7
+Prefix: {range:1}PhysicalAddedAsFireUber3
+Prefix: {range:0.788}LocalIncreasedPhysicalDamagePercent5
+Suffix: {range:0.099}LocalIncreasedAttackSpeed6
+Suffix: {range:0.57}LocalCriticalStrikeChance4
+Suffix: None
+Quality: 30
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+129% increased Physical Damage
+Adds 19 to 35 Physical Damage
+20% increased Attack Speed
+27% increased Critical Strike Chance
+Gain 20% of Physical Damage as Extra Fire Damage
+		</Item>
+		<Item id="29">
+			Rarity: RARE
+shaper multi - max qual as
+Jewelled Foil
+Shaper Item
+Crafted: true
+Prefix: {range:0.369}LocalAddedPhysicalDamage7
+Prefix: {range:1}PhysicalAddedAsFireUber3
+Prefix: {range:0.788}LocalIncreasedPhysicalDamagePercent5
+Suffix: {range:0.831}LocalIncreasedAttackSpeed4
+Suffix: {range:0.57}LocalCriticalStrikeChance4
+Suffix: None
+Quality: 48
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+129% increased Physical Damage
+Adds 16 to 31 Physical Damage
+16% increased Attack Speed
+27% increased Critical Strike Chance
+Gain 20% of Physical Damage as Extra Fire Damage
+		</Item>
+		<Item id="28">
+			Rarity: RARE
+shaper multi - max qual crit
+Jewelled Foil
+Shaper Item
+Crafted: true
+Prefix: {range:0.369}LocalAddedPhysicalDamage7
+Prefix: {range:1}PhysicalAddedAsFireUber3
+Prefix: {range:0.788}LocalIncreasedPhysicalDamagePercent5
+Suffix: {range:0.099}LocalIncreasedAttackSpeed6
+Suffix: {range:0.57}LocalCriticalStrikeChance4
+Suffix: None
+Quality: 48
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+129% increased Physical Damage
+Adds 19 to 35 Physical Damage
+20% increased Attack Speed
+25% increased Critical Strike Chance
+Gain 20% of Physical Damage as Extra Fire Damage
+		</Item>
+		<Item id="25">
+			Rarity: RARE
+shaper multi - min no qual
+Jewelled Foil
+Shaper Item
+Crafted: true
+Prefix: {range:0.369}LocalAddedPhysicalDamage7
+Prefix: {range:1}PhysicalAddedAsFireUber3
+Prefix: {range:0.788}LocalIncreasedPhysicalDamagePercent5
+Suffix: {range:0.099}LocalIncreasedAttackSpeed6
+Suffix: {range:0.57}LocalCriticalStrikeChance4
+Suffix: None
+Quality: 30
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+100% increased Physical Damage
+Adds 14 to 29 Physical Damage
+16% increased Attack Speed
+25% increased Critical Strike Chance
+Gain 18% of Physical Damage as Extra Fire Damage
+		</Item>
+		<Item id="27">
+			Rarity: RARE
+shaper multi - min qual as
+Jewelled Foil
+Shaper Item
+Crafted: true
+Prefix: {range:0.369}LocalAddedPhysicalDamage7
+Prefix: {range:1}PhysicalAddedAsFireUber3
+Prefix: {range:0.788}LocalIncreasedPhysicalDamagePercent5
+Suffix: {range:0.099}LocalIncreasedAttackSpeed6
+Suffix: {range:0.57}LocalCriticalStrikeChance4
+Suffix: None
+Quality: 43
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+100% increased Physical Damage
+Adds 14 to 29 Physical Damage
+13% increased Attack Speed
+25% increased Critical Strike Chance
+Gain 18% of Physical Damage as Extra Fire Damage
+		</Item>
+		<Item id="26">
+			Rarity: RARE
+shaper multi - min qual crit
+Jewelled Foil
+Shaper Item
+Crafted: true
+Prefix: {range:0.369}LocalAddedPhysicalDamage7
+Prefix: {range:1}PhysicalAddedAsFireUber3
+Prefix: {range:0.788}LocalIncreasedPhysicalDamagePercent5
+Suffix: {range:0.099}LocalIncreasedAttackSpeed6
+Suffix: {range:0.57}LocalCriticalStrikeChance4
+Suffix: None
+Quality: 43
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+100% increased Physical Damage
+Adds 14 to 29 Physical Damage
+16% increased Attack Speed
+21% increased Critical Strike Chance
+Gain 18% of Physical Damage as Extra Fire Damage
+		</Item>
+		<Item id="23">
+			Rarity: RARE
+tact
+Jewelled Foil
+Crafted: true
+Prefix: {range:0.229}LocalAddedPhysicalDamage6
+Prefix: None
+Prefix: None
+Suffix: {range:0.211}LocalIncreasedAttackSpeed4
+Suffix: {range:0.725}LocalCriticalStrikeChance3
+Suffix: None
+Quality: 62
+Sockets: G-G-G
+LevelReq: 68
+Implicits: 1
++25% to Global Critical Strike Multiplier
+Adds 14 to 27 Physical Damage
+14% increased Attack Speed
+23% increased Critical Strike Chance
+169% increased Physical Damage
+Gain 10% of Physical Damage as Extra Chaos Damage
+attacks with this weapon penetrate 15% elemental resistance
+		</Item>
+		<Item id="17">
+			Rarity: RARE
+Sol Guardian
+Lacquered Helmet
+Item Level: 78
+Quality: 20
+Sockets: G-R R R
+LevelReq: 51
+Implicits: 1
+Elemental Hit has +30% chance to Freeze, Shock and Ignite
++48 to Intelligence
++75 to maximum Life
++40% to Fire Resistance
++47% to Cold Resistance
+10% of Physical Damage from Hits taken as Cold Damage
+39% increased Armour and Evasion
++28 to maximum Life
+		</Item>
+		<Item id="5">
+			Rarity: UNIQUE
+Loreweave
+Elegant Ringmail
+Unique ID: b8789dd3abed66bd77b66546a390ad438b1e79b70b46ea1f944c9633fd640976
+Item Level: 6
+Quality: 20
+Sockets: G-G-B-R-R-R
+LevelReq: 64
+Implicits: 0
+Has 6 Sockets
+Adds 9 to 35 Physical Damage to Attacks
++15 to all Attributes
+24% increased Global Critical Strike Chance
++48 to maximum Energy Shield
++37 to maximum Life
++36 to maximum Mana
+30% increased Rarity of Items found
+38% increased Elemental Damage
+Your Maximum Resistances are 80%
+		</Item>
+		<Item id="32">
+			Rarity: RARE
+Brimstone Mitts
+Hydrascale Gauntlets
+Item Level: 85
+Quality: 20
+Sockets: G-R-R-R
+LevelReq: 59
+Implicits: 0
+16% increased Attack Speed
++45 to Armour
++38 to Evasion Rating
+50% increased Armour and Evasion
++63 to maximum Life
++47% to Cold Resistance
++48% to Lightning Resistance
+46% increased Damage with Hits against Chilled Enemies
+		</Item>
+		<Item id="12">
+			Rarity: RARE
+Blight Fingers
+Ambush Mitts
+Item Level: 85
+Quality: 20
+Sockets: R-R-R-G
+LevelReq: 45
+Implicits: 0
+9% increased Attack Speed
+13% increased Rarity of Items found
++47% to Cold Resistance
++19% to Lightning Resistance
+40% increased Damage with Hits against Chilled Enemies
++64 to maximum Life
+		</Item>
+		<Item id="18">
+			Rarity: UNIQUE
+Kaom&apos;s Roots
+Titan Greaves
+Unique ID: 43ae5b4afcb6394579aa24786f85f8a45a670af75eef6a977d1edcd0c9ae36f7
+Item Level: 72
+Quality: 0
+LevelReq: 68
+Implicits: 1
+{crafted}Damage Penetrates 10% of Enemy Elemental Resistances if you haven&apos;t Killed Recently
+Has no Sockets
+Cannot be Knocked Back
++194 to maximum Life
+Action Speed cannot be modified to below base value
+Unwavering Stance
+		</Item>
+		<Item id="21">
+			Rarity: RARE
+Havoc Pendant
+Onyx Amulet
+Unique ID: 138f409d6c6e5404f44c631a1e9f513698ebce69ee296ba532d02874d5d60fff
+Shaper Item
+Item Level: 82
+LevelReq: 60
+Implicits: 1
++10 to all Attributes
+Adds 6 to 10 Physical Damage to Attacks
++33% to Global Critical Strike Multiplier
++39% to Lightning Resistance
+Gain 19% of Physical Damage as Extra Cold Damage
+{crafted}+46 to maximum Life
+Corrupted
+		</Item>
+		<Item id="16">
+			Rarity: RARE
+Gale Nail
+Steel Ring
+Unique ID: 7b65f58806b4c2d161a8f0014f78eb1ae00e5e6fb4571ce1126c31e9047a9ca7
+Shaper Item
+Item Level: 80
+LevelReq: 80
+Implicits: 1
+Adds 4 to 14 Physical Damage to Attacks
+Adds 9 to 14 Physical Damage to Attacks
++47 to Dexterity
++15 to Intelligence
++42% to Lightning Resistance
+Gain 10% of Physical Damage as Extra Fire Damage
+{crafted}+52 to maximum Life
+		</Item>
+		<Item id="19">
+			Rarity: RARE
+Onslaught Nail
+Steel Ring
+Item Level: 79
+LevelReq: 80
+Implicits: 1
+Adds 4 to 14 Physical Damage to Attacks
+Grants Level 20 Aspect of the Spider Skill
++47 to maximum Life
++13% to all Elemental Resistances
++32% to Fire Resistance
+Gain 10% of Physical Damage as Extra Fire Damage
+Adds 6 to 10 Physical Damage to Attacks
+		</Item>
+		<Item id="7">
+			Rarity: RARE
+Kraken Tether
+Stygian Vise
+Unique ID: 63d70a1ad079cd697bfd8d744fd1790bbc1ab88f9922cd0b5c93dc9daa4a5a29
+Item Level: 75
+Sockets: A
+Implicits: 1
+Has 1 Abyssal Socket
++24 to maximum Energy Shield
++87 to maximum Life
++45% to Fire Resistance
++19% to Cold Resistance
++13% to Chaos Resistance
+{crafted}16% increased Damage
+		</Item>
+		<Item id="20">
+			Rarity: MAGIC
+Panicked Eternal Life Flask of Grounding
+Unique ID: bd38d9f683da8ffd9f09d4fe064a1968e18b076b0f07a3d5451cd35c3ee8f08b
+Item Level: 68
+Quality: 20
+LevelReq: 65
+Implicits: 0
+25% reduced Amount Recovered
+Instant Recovery when on Low Life
+Immunity to Shock during Flask effect
+Removes Shock on use
+		</Item>
+		<Item id="15">
+			Rarity: MAGIC
+Seething Divine Life Flask of Staunching
+Unique ID: 40851161694279c0025caa5be83445821e12657917e3944fb61cf447d431e4d6
+Item Level: 71
+Quality: 20
+LevelReq: 60
+Implicits: 0
+66% reduced Amount Recovered
+Instant Recovery
+Immunity to Bleeding during Flask effect
+Removes Bleeding on use
+		</Item>
+		<Item id="10">
+			Rarity: MAGIC
+Ample Diamond Flask of the Order
+Unique ID: 4bfd0ef9626ae066556012e59a95059436ed3cc7c0cf7aa9e7369e043e3024d2
+Item Level: 52
+Quality: 20
+LevelReq: 27
+Implicits: 0
++20 to Maximum Charges
+{crafted}80% increased Critical Strike Chance during Flask Effect
+		</Item>
+		<Item id="11">
+			Rarity: UNIQUE
+Lion&apos;s Roar
+Granite Flask
+Unique ID: 3c139a05a94679c5b9c6bb9acac9fd99e88d690bc745fce17a411d5f8d2c2b58
+Item Level: 51
+Quality: 26
+LevelReq: 27
+Implicits: 0
+Adds Knockback to Melee Attacks during Flask effect
+Knocks Back Enemies in an Area when you use a Flask
+75% chance to cause Enemies to Flee on use
+25% more Melee Physical Damage during effect
+		</Item>
+		<Item id="33">
+			Rarity: UNIQUE
+Atziri&apos;s Promise
+Amethyst Flask
+Item Level: 72
+Quality: 20
+LevelReq: 68
+Implicits: 0
+2% of Chaos Damage Leeched as Life during Flask effect
+Gain 20% of Physical Damage as Extra Chaos Damage during effect
+Gain 15% of Elemental Damage as Extra Chaos Damage during effect
+		</Item>
+		<Item id="35">
+			Rarity: RARE
+Enthralling Breaker
+Murderous Eye Jewel
+Item Level: 74
+LevelReq: 28
+Implicits: 0
++11% to Global Critical Strike Multiplier
++33 to maximum Life
+Adds 8 to 15 Fire Damage to Mace Attacks
+8% increased Attack Speed if you&apos;ve dealt a Critical Strike Recently
+		</Item>
+		<Item id="34">
+			Rarity: RARE
+Brood Bane
+Crimson Jewel
+Item Level: 68
+Implicits: 0
+8% increased Attack Speed with Swords
++14% to Melee Critical Strike Multiplier
+6% increased maximum Life
+4% reduced Mana Cost of Skills
+		</Item>
+		<Item id="3">
+			Rarity: RARE
+Luminous Hope
+Viridian Jewel
+Unique ID: 96c2393c1ab696424e9b9f14e6f67826b7cd47e0176ca2dc592969f94cd83c89
+Item Level: 33
+Implicits: 0
+6% increased Attack Speed while Dual Wielding
++15% to Melee Critical Strike Multiplier
++15% to Critical Strike Multiplier while Dual Wielding
+		</Item>
+		<Item id="1">
+			Rarity: RARE
+Oblivion Heart
+Crimson Jewel
+Unique ID: 62368991fdd5a7950f9ac1bac470d7551937e3326ffeacddcbd2b915cf569d3a
+Item Level: 62
+Implicits: 0
+14% increased Physical Damage with Swords
++15% to Melee Critical Strike Multiplier
++18% to Critical Strike Multiplier while Dual Wielding
+		</Item>
+		<Item id="13">
+			Rarity: RARE
+Hypnotic Creed
+Crimson Jewel
+Item Level: 85
+Implicits: 0
+7% increased Attack Speed with Swords
++15% to Melee Critical Strike Multiplier
+7% increased maximum Life
+20% increased Burning Damage
+		</Item>
+		<Item id="46">
+			Rarity: UNIQUE
+Watcher&apos;s Eye
+Prismatic Jewel
+Item Level: 86
+Limited to: 1
+Implicits: 0
+4% increased maximum Energy Shield
+5% increased maximum Life
+5% increased maximum Mana
++1.8% to Critical Strike Chance while affected by Hatred
+You gain Onslaught for 4 seconds on Kill while affected by Haste
+Immune to Ignite while affected by Purity of Fire
+		</Item>
+		<Item id="22">
+			Rarity: RARE
+Bramble Creed
+Viridian Jewel
+Item Level: 74
+Implicits: 0
+8% increased Damage
+6% increased Attack Speed with Swords
++15% to Melee Critical Strike Multiplier
+0.2% of Physical Attack Damage Leeched as Mana
+		</Item>
+		<Item id="6">
+			Rarity: RARE
+Enthralling Globe
+Murderous Eye Jewel
+Unique ID: c5513bc7724cf890a367fb9e059f60a9a442119506ecf0402f2095e4c267397a
+Item Level: 70
+LevelReq: 51
+Implicits: 0
++33 to maximum Life
+Adds 6 to 8 Physical Damage to Sword Attacks
+2% chance to Dodge Attack and Spell Hits if you&apos;ve
+been Hit Recently
+7% increased Effect of Shock
+		</Item>
+		<Item id="2">
+			Rarity: RARE
+Vivid Ornament
+Viridian Jewel
+Unique ID: c0fb1139b0e78b277438e9dc4556cbf9cf4e6c4ace71a461d1ee69c2dd51fd49
+Item Level: 57
+Implicits: 0
+14% increased Physical Weapon Damage while Dual Wielding
++12% to Global Critical Strike Multiplier
+0.4% of Physical Attack Damage Leeched as Mana
+16% increased Damage with Bleeding
+		</Item>
+		<Item id="50">
+			Rarity: RARE
+Apocalypse Nails
+Spiked Gloves
+Item Level: 83
+Quality: 20
+Sockets: G-R-R-R
+LevelReq: 70
+Implicits: 1
+20% increased Melee Damage
++47% to Cold Resistance
+45% increased Damage with Hits against Chilled Enemies
+Can have multiple Crafted Modifiers
+12% increased Attack Speed
++58 to maximum Life
+40% increased Damage while Leeching
+27% increased Damage during any Flask Effect
+		</Item>
+		<Item id="51">
+			Rarity: RARE
+Pain Lash
+Stygian Vise
+Item Level: 82
+Sockets: A
+Implicits: 1
+Has 1 Abyssal Socket
++93 to maximum Life
++22% to Fire Resistance
++25% to Cold Resistance
++18% to Lightning Resistance
+15% increased Damage
+		</Item>
+		<Slot name="Gloves" itemId="50"/>
+		<Slot name="Weapon 1" itemId="31"/>
+		<Slot active="true" name="Flask 3" itemId="10"/>
+		<Slot name="Amulet" itemId="21"/>
+		<Slot name="Flask 1" itemId="20"/>
+		<Slot active="true" name="Flask 5" itemId="33"/>
+		<Slot name="Belt Abyssal Socket 1" itemId="35"/>
+		<Slot name="Flask 2" itemId="15"/>
+		<Slot name="Weapon 2 Swap" itemId="14"/>
+		<Slot name="Weapon 2" itemId="47"/>
+		<Slot name="Body Armour" itemId="5"/>
+		<Slot active="true" name="Flask 4" itemId="11"/>
+		<Slot name="Weapon 1 Swap" itemId="8"/>
+		<Slot name="Ring 2" itemId="19"/>
+		<Slot name="Boots" itemId="18"/>
+		<Slot name="Ring 1" itemId="16"/>
+		<Slot name="Helmet" itemId="17"/>
+		<Slot name="Belt" itemId="51"/>
+		<ItemSet useSecondWeaponSet="false" id="1">
+			<Slot name="Gloves" itemId="50"/>
+			<Slot name="Weapon 1" itemId="31"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Belt Abyssal Socket 2" itemId="0"/>
+			<Slot active="true" name="Flask 3" itemId="10"/>
+			<Slot name="Body Armour Abyssal Socket 2" itemId="0"/>
+			<Slot name="Amulet" itemId="21"/>
+			<Slot name="Flask 1" itemId="20"/>
+			<Slot name="Weapon 2Swap Abyssal Socket 1" itemId="0"/>
+			<Slot active="true" name="Flask 5" itemId="33"/>
+			<Slot name="Belt Abyssal Socket 1" itemId="35"/>
+			<Slot name="Flask 2" itemId="15"/>
+			<Slot name="Helmet Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2 Swap" itemId="14"/>
+			<Slot name="Weapon 1 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 2" itemId="47"/>
+			<Slot name="Body Armour" itemId="5"/>
+			<Slot active="true" name="Flask 4" itemId="11"/>
+			<Slot name="Weapon 1 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 2" itemId="0"/>
+			<Slot name="Weapon 1 Swap" itemId="8"/>
+			<Slot name="Ring 2" itemId="19"/>
+			<Slot name="Boots Abyssal Socket 2" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 2" itemId="0"/>
+			<Slot name="Body Armour Abyssal Socket 1" itemId="0"/>
+			<Slot name="Gloves Abyssal Socket 1" itemId="0"/>
+			<Slot name="Helmet Abyssal Socket 1" itemId="0"/>
+			<Slot name="Weapon 2 Abyssal Socket 1" itemId="0"/>
+			<Slot name="Boots" itemId="18"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 1" itemId="0"/>
+			<Slot name="Ring 1" itemId="16"/>
+			<Slot name="Weapon 1Swap Abyssal Socket 2" itemId="0"/>
+			<Slot name="Helmet" itemId="17"/>
+			<Slot name="Boots Abyssal Socket 1" itemId="0"/>
+			<Slot name="Belt" itemId="51"/>
+		</ItemSet>
+	</Items>
+	<Config>
+		<Input name="conditionLeeching" boolean="true"/>
+		<Input name="conditionCritRecently" boolean="true"/>
+		<Input name="conditionEnemyChilled" boolean="true"/>
+		<Input name="buffFortify" boolean="true"/>
+		<Input name="buffAdrenaline" boolean="true"/>
+		<Input name="conditionTauntedEnemyRecently" boolean="true"/>
+		<Input name="conditionEnemyMaimed" boolean="true"/>
+		<Input name="conditionEnemyIntimidated" boolean="true"/>
+		<Input name="bannerStages" number="50"/>
+		<Input name="conditionEnemyBleeding" boolean="true"/>
+		<Input name="enemyIsBoss" string="SHAPER"/>
+		<Input name="conditionEnemyTaunted" boolean="true"/>
+		<Input name="aspectOfTheSpiderWebStacks" number="3"/>
+	</Config>
+</PathOfBuilding>
