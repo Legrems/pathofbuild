@@ -1,0 +1,1411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathOfBuilding>
+	<Build level="100" bandit="None" pantheonMajorGod="None" pantheonMinorGod="None" characterLevelAutoMode="false" className="Shadow" viewMode="TREE" mainSocketGroup="5" ascendClassName="Assassin" targetVersion="3_0">
+		<PlayerStat stat="AverageHit" value="40486231.623075"/>
+		<PlayerStat stat="AverageBurstDamage" value="40486231.623075"/>
+		<PlayerStat stat="Speed" value="0.84175084175084"/>
+		<PlayerStat stat="PreEffectiveCritChance" value="100"/>
+		<PlayerStat stat="CritChance" value="100"/>
+		<PlayerStat stat="CritMultiplier" value="6.01"/>
+		<PlayerStat stat="HitChance" value="100"/>
+		<PlayerStat stat="TotalDPS" value="34079319.548043"/>
+		<PlayerStat stat="TotalDot" value="0"/>
+		<PlayerStat stat="WithBleedDPS" value="34079319.548043"/>
+		<PlayerStat stat="IgniteDPS" value="118141.46607074"/>
+		<PlayerStat stat="WithIgniteDPS" value="34197461.014114"/>
+		<PlayerStat stat="WithPoisonDPS" value="34079319.548043"/>
+		<PlayerStat stat="TotalDotDPS" value="118141.46607074"/>
+		<PlayerStat stat="CullingDPS" value="3799717.8904571"/>
+		<PlayerStat stat="ReservationDPS" value="0"/>
+		<PlayerStat stat="CombinedDPS" value="37997178.904571"/>
+		<PlayerStat stat="Cooldown" value="1.188"/>
+		<PlayerStat stat="AreaOfEffectRadiusMetres" value="7"/>
+		<PlayerStat stat="ManaCost" value="103"/>
+		<PlayerStat stat="ManaPercentCost" value="0"/>
+		<PlayerStat stat="ManaPerSecondCost" value="0"/>
+		<PlayerStat stat="ManaPercentPerSecondCost" value="0"/>
+		<PlayerStat stat="LifeCost" value="0"/>
+		<PlayerStat stat="LifePercentCost" value="0"/>
+		<PlayerStat stat="LifePerSecondCost" value="0"/>
+		<PlayerStat stat="LifePercentPerSecondCost" value="0"/>
+		<PlayerStat stat="ESCost" value="0"/>
+		<PlayerStat stat="ESPerSecondCost" value="86.700336700337"/>
+		<PlayerStat stat="ESPercentPerSecondCost" value="0"/>
+		<PlayerStat stat="RageCost" value="0"/>
+		<PlayerStat stat="SoulCost" value="0"/>
+		<PlayerStat stat="Str" value="44"/>
+		<PlayerStat stat="Dex" value="73"/>
+		<PlayerStat stat="Int" value="62"/>
+		<PlayerStat stat="Devotion" value="0"/>
+		<PlayerStat stat="TotalEHP" value="43547.616337131"/>
+		<PlayerStat stat="PhysicalMaximumHitTaken" value="12859"/>
+		<PlayerStat stat="LightningMaximumHitTaken" value="37264"/>
+		<PlayerStat stat="FireMaximumHitTaken" value="37264"/>
+		<PlayerStat stat="ColdMaximumHitTaken" value="37264"/>
+		<PlayerStat stat="ChaosMaximumHitTaken" value="41735"/>
+		<PlayerStat stat="Life" value="4299"/>
+		<PlayerStat stat="Spec:LifeInc" value="132"/>
+		<PlayerStat stat="LifeUnreserved" value="4299"/>
+		<PlayerStat stat="LifeRecoverable" value="4299"/>
+		<PlayerStat stat="LifeUnreservedPercent" value="100"/>
+		<PlayerStat stat="LifeRegenRecovery" value="0"/>
+		<PlayerStat stat="LifeLeechGainRate" value="361.86868686869"/>
+		<PlayerStat stat="Mana" value="832"/>
+		<PlayerStat stat="Spec:ManaInc" value="8"/>
+		<PlayerStat stat="ManaUnreserved" value="0"/>
+		<PlayerStat stat="ManaUnreservedPercent" value="0"/>
+		<PlayerStat stat="ManaRegenRecovery" value="37.7"/>
+		<PlayerStat stat="ManaLeechGainRate" value="0"/>
+		<PlayerStat stat="EnergyShield" value="313"/>
+		<PlayerStat stat="EnergyShieldRecoveryCap" value="313"/>
+		<PlayerStat stat="Spec:EnergyShieldInc" value="15"/>
+		<PlayerStat stat="EnergyShieldRegenRecovery" value="163"/>
+		<PlayerStat stat="EnergyShieldLeechGainRate" value="0"/>
+		<PlayerStat stat="Ward" value="200"/>
+		<PlayerStat stat="RageRegenRecovery" value="0"/>
+		<PlayerStat stat="Evasion" value="16130"/>
+		<PlayerStat stat="Spec:EvasionInc" value="104"/>
+		<PlayerStat stat="MeleeEvadeChance" value="66"/>
+		<PlayerStat stat="ProjectileEvadeChance" value="66"/>
+		<PlayerStat stat="Armour" value="974"/>
+		<PlayerStat stat="Spec:ArmourInc" value="0"/>
+		<PlayerStat stat="PhysicalDamageReduction" value="21"/>
+		<PlayerStat stat="BlockChance" value="15"/>
+		<PlayerStat stat="SpellBlockChance" value="0"/>
+		<PlayerStat stat="AttackDodgeChance" value="0"/>
+		<PlayerStat stat="SpellDodgeChance" value="0"/>
+		<PlayerStat stat="SpellSuppressionChance" value="100"/>
+		<PlayerStat stat="FireResist" value="75"/>
+		<PlayerStat stat="FireResistOverCap" value="2"/>
+		<PlayerStat stat="ColdResist" value="75"/>
+		<PlayerStat stat="ColdResistOverCap" value="8"/>
+		<PlayerStat stat="LightningResist" value="75"/>
+		<PlayerStat stat="LightningResistOverCap" value="5"/>
+		<PlayerStat stat="ChaosResist" value="75"/>
+		<PlayerStat stat="ChaosResistOverCap" value="4"/>
+		<PlayerStat stat="EffectiveMovementSpeedMod" value="1.22"/>
+		<PlayerStat stat="FullDPS" value="0"/>
+		<PlayerStat stat="FullDotDPS" value="0"/>
+		<PlayerStat stat="PowerCharges" value="10"/>
+		<PlayerStat stat="PowerChargesMax" value="10"/>
+		<PlayerStat stat="FrenzyCharges" value="10"/>
+		<PlayerStat stat="FrenzyChargesMax" value="10"/>
+		<PlayerStat stat="EnduranceCharges" value="3"/>
+		<PlayerStat stat="EnduranceChargesMax" value="3"/>
+		<PlayerStat stat="ActiveTotemLimit" value="1"/>
+		<TimelessData socketFilterDistance="0" searchListFallback="" searchList="" devotionVariant2="1" devotionVariant1="1"/>
+	</Build>
+	<Config>
+		<Input name="enemyIsBoss" string="Pinnacle"/>
+		<Input name="usePowerCharges" boolean="true"/>
+		<Input name="useFrenzyCharges" boolean="true"/>
+		<Input name="useEnduranceCharges" boolean="true"/>
+		<Input name="conditionEnemyLowLife" boolean="true"/>
+		<Input name="conditionShockEffect" number="50"/>
+		<Input name="conditionEnemyShocked" boolean="true"/>
+		<Input name="multiplierNearbyRareOrUniqueEnemies" number="1"/>
+		<Placeholder name="sigilOfPowerStages" number="1"/>
+		<Placeholder name="enemyFirePen" number="3"/>
+		<Placeholder name="multiplierWitheredStackCountSelf" number="15"/>
+		<Placeholder name="enemyColdPen" number="3"/>
+		<Placeholder name="enemyLightningPen" number="3"/>
+		<Placeholder name="enemyChaosDamage" number="896"/>
+		<Placeholder name="enemyChaosResist" number="30"/>
+		<Placeholder name="enemySpeed" number="700"/>
+		<Placeholder name="enemyDamageRollRange" number="70"/>
+		<Placeholder name="enemyCritChance" number="5"/>
+		<Placeholder name="enemyCritDamage" number="30"/>
+		<Placeholder name="enemyPhysicalDamage" number="2241"/>
+		<Placeholder name="enemyArmour" number="24752"/>
+		<Placeholder name="enemyFireDamage" number="2241"/>
+		<Placeholder name="enemyLightningDamage" number="2241"/>
+		<Placeholder name="enemyLightningResist" number="50"/>
+		<Placeholder name="enemyEvasion" number="10143"/>
+		<Placeholder name="enemyColdDamage" number="2241"/>
+		<Placeholder name="enemyFireResist" number="50"/>
+		<Placeholder name="enemyColdResist" number="50"/>
+		<Placeholder name="enemyLevel" number="84"/>
+	</Config>
+	<Skills sortGemsByDPS="true" defaultGemLevel="normalMaximum" defaultGemQuality="0" sortGemsByDPSField="CombinedDPS" showAltQualityGems="false" activeSkillSet="1" showSupportGemTypes="ALL">
+		<SkillSet id="1">
+			<Skill enabled="true" slot="Weapon 1" includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1">
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SkillGemSummonFlameGolem" qualityId="Alternate1" enableGlobal2="false" enableGlobal1="true" skillMinionCalcs="SummonedFlameGolem" skillMinion="SummonedFlameGolem" skillMinionSkillCalcs="1" nameSpec="Summon Flame Golem" count="1" level="21" skillMinionSkill="1" skillId="SummonFireGolem" quality="20"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemMinionLife" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Minion Life" count="1" level="21" skillId="SupportMinionLife" quality="20"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemMeatShield" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Meat Shield" count="1" level="20" skillId="SupportMinionDefensiveStance" quality="20"/>
+			</Skill>
+			<Skill enabled="true" slot="Helmet" includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1">
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SkillGemLightningWarp" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Lightning Warp" count="1" level="3" skillId="LightningWarp" quality="20"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemReducedDuration" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Less Duration" count="1" level="20" skillId="SupportReducedDuration" quality="23"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemRapidDecay" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Swift Affliction" count="1" level="20" skillId="SupportRapidDecay" quality="20"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemFasterCast" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Faster Casting" count="1" level="20" skillId="SupportFasterCast" quality="20"/>
+			</Skill>
+			<Skill enabled="true" slot="Weapon 2" includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1">
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SkillGemSteelskin" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Steelskin" count="1" level="21" skillId="QuickGuard" quality="0"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemIncreasedDuration" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Increased Duration" count="1" level="20" skillId="SupportIncreasedDuration" quality="20"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemEfficacy" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Efficacy" count="1" level="20" skillId="SupportEfficacy" quality="20"/>
+			</Skill>
+			<Skill enabled="true" slot="Gloves" includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1">
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SkillGemPurity" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Purity of Elements" count="1" level="21" skillId="Purity" quality="14"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemAdditionalXP" qualityId="Default" enableGlobal2="true" enableGlobal1="true" nameSpec="Enlighten" count="1" level="4" skillId="SupportAdditionalXP" quality="0"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SkillGemSpellDamageAura" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Zealotry" count="1" level="21" skillId="SpellDamageAura" quality="0"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SkillGemGrace" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Grace" count="1" level="20" skillId="Grace" quality="0"/>
+			</Skill>
+			<Skill enabled="true" slot="Body Armour" includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1">
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SkillGemDischarge" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Discharge" count="1" level="21" skillId="Discharge" quality="20"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemAdditionalLevel" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Empower" count="1" level="4" skillId="SupportAdditionalLevel" quality="0"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemPowerChargeOnCrit" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Power Charge On Critical" count="1" level="20" skillId="SupportPowerChargeOnCrit" quality="20"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemIncreasedCriticalDamage" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Increased Critical Damage" count="1" level="20" skillId="SupportIncreasedCriticalDamage" quality="20"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemElementalPenetration" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Elemental Penetration" count="1" level="20" skillId="SupportElementalPenetration" quality="23"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemConcentratedEffect" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Concentrated Effect" count="1" level="20" skillId="SupportConcentratedEffect" quality="20"/>
+			</Skill>
+			<Skill enabled="true" slot="Boots" includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1">
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SkillGemElementalWeakness" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Elemental Weakness" count="1" level="20" skillId="ElementalWeakness" quality="23"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemIncreasedDuration" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Increased Duration" count="1" level="20" skillId="SupportIncreasedDuration" quality="20"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemSpellTotem" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Spell Totem" count="1" level="21" skillId="SupportSpellTotem" quality="0"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemEfficacy" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Efficacy" count="1" level="20" skillId="SupportEfficacy" quality="23"/>
+			</Skill>
+			<Skill enabled="true" slot="Helmet" source="Item:15:Carrion Ward, Hubris Circlet" includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1">
+				<Gem enabled="true" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Aspect of the Cat" count="1" level="20" skillId="CatAspect" quality="0"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemReducedDuration" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Less Duration" count="1" level="20" skillId="SupportReducedDuration" quality="23"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemRapidDecay" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Swift Affliction" count="1" level="20" skillId="SupportRapidDecay" quality="20"/>
+				<Gem enabled="true" gemId="Metadata/Items/Gems/SupportGemFasterCast" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Faster Casting" count="1" level="20" skillId="SupportFasterCast" quality="20"/>
+			</Skill>
+			<Skill enabled="false" slot="Ring 1" source="Item:22:Timeclasp, Moonstone Ring" includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1">
+				<Gem enabled="true" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Pride" count="1" level="21" skillId="PhysicalDamageAura" quality="0"/>
+			</Skill>
+			<Skill enabled="false" slot="Ring 2" source="Item:11:Timeclasp, Moonstone Ring" includeInFullDPS="false" mainActiveSkill="1" label="" mainActiveSkillCalcs="1">
+				<Gem enabled="true" qualityId="Default" enableGlobal2="false" enableGlobal1="true" nameSpec="Zealotry" count="1" level="23" skillId="SpellDamageAura" quality="0"/>
+			</Skill>
+		</SkillSet>
+	</Skills>
+	<Import lastCharacterHash="26e7e6e17ee7ea999c922e21cfb86904c3de5a3d" lastRealm="PC" exportParty="false" lastAccountHash="1fa7c494c1712d1f2515396b717101c61f6576ee"/>
+	<Items useSecondWeaponSet="false" activeItemSet="1">
+		<Item id="1">
+			Rarity: RARE
+Morbid Stare
+Searching Eye Jewel
+Unique ID: 0169907ea5c3691d945cc93c294f758c97740b405d3070cb5fc303a2905447d2
+Item Level: 83
+LevelReq: 49
+Implicits: 2
+24% chance to Avoid being Stunned
+4% increased Area of Effect
++24 to maximum Life
+23% chance to Avoid being Stunned
+12 to 21 Added Fire Damage with Bow Attacks
+Corrupted
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item id="2">
+			Rarity: UNIQUE
+Forbidden Flame
+Crimson Jewel
+Unique ID: 4bc268615c6af49310ad59f5f80f4e6e6ca958f601f7175be7258b5b2b8cd52a
+Item Level: 85
+Limited to: 1
+Requires Class Shadow
+Implicits: 0
+Allocates Like Clockwork if you have the matching modifier on Forbidden Flesh
+Corrupted
+			<ModRange range="0.5" id="1"/>
+		</Item>
+		<Item id="3">
+			Rarity: RARE
+Grim Vision
+Searching Eye Jewel
+Unique ID: 0c55ef57edae2bbe00fc80aab9d49a30fa397691d4aa1f68337961905fcbe8a2
+Item Level: 78
+LevelReq: 60
+Implicits: 0
++34 to maximum Life
+26% chance to Avoid being Stunned
+5% chance to gain Phasing for 4 seconds on Kill
+2% increased Cooldown Recovery Rate
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<Item id="4">
+			Rarity: RARE
+Empyrean Shine
+Medium Cluster Jewel
+Unique ID: 4aab598d71fff390289792d4ec52e5886ff6cf030002f0403ce994bb4a85975f
+Item Level: 83
+LevelReq: 54
+Implicits: 3
+{crafted}Adds 4 Passive Skills
+{crafted}1 Added Passive Skill is a Jewel Socket
+{crafted}Added Small Passive Skills grant: 10% increased Area Damage
+Added Small Passive Skills also grant: +2% to Cold Resistance
+1 Added Passive Skill is Towering Threat
+1 Added Passive Skill is Vast Power
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item id="5">
+			Rarity: RARE
+Kraken Vessel
+Large Cluster Jewel
+Unique ID: 3821d57449883c3059d7b99a9b1163802fd54b2a082bad64ca1f2645751757c5
+Item Level: 78
+LevelReq: 60
+Implicits: 3
+{crafted}Adds 8 Passive Skills
+{crafted}2 Added Passive Skills are Jewel Sockets
+{crafted}Added Small Passive Skills grant: 10% increased Elemental Damage
+1 Added Passive Skill is Doryani&apos;s Lesson
+1 Added Passive Skill is Inspired Oppression
+1 Added Passive Skill is Prismatic Heart
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item id="6">
+			Rarity: UNIQUE
+Forbidden Flesh
+Cobalt Jewel
+Unique ID: 7cd3dfef32f779131b72473913c927bd56fca926728a8ee8773188f0064c3206
+Item Level: 85
+Limited to: 1
+Requires Class Shadow
+Implicits: 0
+Allocates Like Clockwork if you have the matching modifier on Forbidden Flame
+Corrupted
+			<ModRange range="0.5" id="1"/>
+		</Item>
+		<Item id="7">
+			Rarity: UNIQUE
+Elegant Hubris
+Timeless Jewel
+Unique ID: 37109319a86e4de1578a70cadf3c27aa3f671478bdfe2b9013e2dbb1c4a5a7d6
+Item Level: 84
+Radius: Large
+Implicits: 0
+Commissioned 115180 coins to commemorate Caspiro
+Passives in radius are Conquered by the Eternal Empire
+Historic
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+		</Item>
+		<Item id="8">
+			Rarity: UNIQUE
+Watcher&apos;s Eye
+Prismatic Jewel
+Unique ID: ec447aea2bbc279f0a292e2f9b6555658d432c800929936aee04f4d2da6ad3f7
+Item Level: 86
+Limited to: 1
+Implicits: 0
+5% increased maximum Energy Shield
+4% increased maximum Life
+5% increased maximum Mana
++42% to Chaos Resistance while affected by Purity of Elements
+Critical Strikes Penetrate 10% of Enemy Elemental Resistances while affected by Zealotry
+9% of Physical Damage from Hits taken as Cold Damage while affected by Purity of Elements
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+		</Item>
+		<Item id="9">
+			Rarity: MAGIC
+Perpetual Quicksilver Flask of the Impala
+Unique ID: 5c3b733e5e8206fc7e5533daed80d94855000728133ede8c52ca25927777ed79
+Item Level: 84
+Quality: 20
+LevelReq: 67
+Implicits: 0
+46% increased Charge Recovery
+58% increased Evasion Rating during Effect
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+		</Item>
+		<Item id="10">
+			Rarity: UNIQUE
+Bottled Faith
+Sulphur Flask
+Unique ID: 7b344864bf9f633ff3ba9bb0314dd4bf98f085e42c3e93b8a3d10b96e5b0c8a0
+Item Level: 85
+Quality: 20
+LevelReq: 27
+Implicits: 3
+{crafted}70% increased effect
+{crafted}Gains no Charges during Effect
+Creates Consecrated Ground on Use
+24% reduced Duration
+Consecrated Ground created by this Flask has Tripled Radius
+Consecrated Ground created during Effect applies 10% increased Damage taken to Enemies
+119% increased Critical Strike Chance against Enemies on Consecrated Ground during Effect
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+		</Item>
+		<Item id="11">
+			Rarity: UNIQUE
+Timeclasp
+Moonstone Ring
+Unique ID: 924aa1a5704added4b49e37b1c7e9df6de6e3f14e3eea63af0be4b66ab44631d
+Item Level: 83
+LevelReq: 48
+Implicits: 2
+Grants Level 23 Zealotry Skill
+Bleeding cannot be inflicted on you
+14% increased Attack Speed
+13% increased Cast Speed
+19% reduced Skill Effect Duration
+10% of Damage taken Recouped as Mana
+6% of Damage taken Recouped as Life
+Unaffected by Temporal Chains
+Corrupted
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+		</Item>
+		<Item id="12">
+			Rarity: UNIQUE
+Badge of the Brotherhood
+Turquoise Amulet
+Unique ID: fc41633ce6fffc199bb6f0bb1a6251ebaf152f65562134c9431010c034727e35
+Item Level: 83
+LevelReq: 60
+Implicits: 2
+{crafted}Allocates Overcharge
++15% to all Elemental Resistances
+Your Maximum Frenzy Charges is equal to your Maximum Power Charges
+9% increased Cooldown Recovery Rate of Travel Skills per Frenzy Charge
+9% increased Effect of Elusive on you per Power Charge
+21% chance to lose a Frenzy Charge when you use a Travel Skill
+20% chance to lose a Power Charge when you gain Elusive
+Corrupted
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+		</Item>
+		<Item id="13">
+			Rarity: UNIQUE
+Void Battery
+Prophecy Wand
+Unique ID: c4fe0d3d8f595606b79389f6fa7f0c8094f2af85496d7a4ab0d0295f6bf83106
+Item Level: 84
+Quality: 0
+Sockets: B-R-B
+LevelReq: 68
+Implicits: 1
+39% increased Spell Damage
+80% reduced Spell Damage
+15% increased Cast Speed
+51% increased Global Critical Strike Chance
++45 to maximum Mana
++1 to Maximum Power Charges
+25% increased Spell Damage per Power Charge
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+		</Item>
+		<Item id="14">
+			Rarity: MAGIC
+Perpetual Jade Flask of the Cheetah
+Unique ID: 5389721ee8cbbd9521f49bfef0b5932e1b28346273fe815f26ebb45bcca59ad6
+Item Level: 85
+Quality: 20
+LevelReq: 68
+Implicits: 1
+{crafted}Used when Charges reach full
+46% increased Charge Recovery
+13% increased Movement Speed during Effect
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<Item id="15">
+			Rarity: RARE
+Carrion Ward
+Hubris Circlet
+Energy Shield: 116
+EnergyShieldBasePercentile: 0.5556
+Unique ID: 8e756954b3e6bd8b6bcf5dd1073f22045480c055f5014a104a1292a0fe95a1eb
+Warlord Item
+Item Level: 85
+Quality: 20
+Sockets: R-G-B-B
+LevelReq: 69
+Implicits: 1
+{crafted}+0.5 metres to Discharge radius
+Grants Level 20 Aspect of the Cat Skill
++29 to Intelligence
++10 to maximum Energy Shield
++13 to maximum Mana
++46% to Lightning Resistance
++1 to Maximum Power Charges
+{crafted}+70 to maximum Life
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+		</Item>
+		<Item id="16">
+			Rarity: RARE
+Foul Sphere
+Searching Eye Jewel
+Unique ID: 07c561e1f3d4067640a7978be702c55eadb0329f67d959721178a9ed3c08c002
+Item Level: 88
+LevelReq: 26
+Implicits: 2
+20% chance to Avoid being Stunned
+Corrupted Blood cannot be inflicted on you
++36 to Accuracy Rating
++23 to maximum Life
+Regenerate 13 Energy Shield per second
+Corrupted
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+		</Item>
+		<Item id="17">
+			Rarity: RARE
+Corpse Buckle
+Stygian Vise
+Unique ID: 428070bf54274d46e4b3e770d6613074652f6e5fded27b78d65b00d9877f0812
+Shaper Item
+Item Level: 86
+Sockets: A
+Implicits: 1
+Has 1 Abyssal Socket
++36 to maximum Energy Shield
++72 to maximum Life
+Regenerate 6.4 Mana per second
++32% to Chaos Resistance
+24% increased Elemental Damage
+20% increased Cooldown Recovery Rate
+{crafted}Regenerate 150 Energy Shield per second while a Rare or Unique Enemy is Nearby
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+		</Item>
+		<Item id="18">
+			Rarity: UNIQUE
+Void Battery
+Prophecy Wand
+Unique ID: e714d3a9dcc730992a4baad4b95c820c4262f7a2a4887361e0e335795a2fab92
+Item Level: 85
+Quality: 0
+Sockets: R-R-B
+LevelReq: 68
+Implicits: 1
+40% increased Spell Damage
+80% reduced Spell Damage
+17% increased Cast Speed
+57% increased Global Critical Strike Chance
++44 to maximum Mana
++1 to Maximum Power Charges
+25% increased Spell Damage per Power Charge
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+		</Item>
+		<Item id="19">
+			Rarity: RARE
+Grim Touch
+Slink Gloves
+Evasion: 361
+EvasionBasePercentile: 0.6065
+Unique ID: 66f211a4a60e5a5b5d59796930a6a131768f0758dcfa24816288354859410d17
+Item Level: 85
+Quality: 20
+Sockets: B-B-B-G
+LevelReq: 70
+Implicits: 2
+Inflict Lightning Exposure on Hit, applying -12% to Lightning Resistance
+5% increased Damage per Frenzy Charge
+{fractured}+13% chance to Suppress Spell Damage
+Adds 1 to 22 Lightning Damage to Attacks
++37 to Evasion Rating
++25 to maximum Life
++47% to Cold Resistance
++33% to Chaos Resistance
+{crafted}+70 to maximum Life
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+		</Item>
+		<Item id="20">
+			Rarity: UNIQUE
+Farrul&apos;s Fur
+Triumphant Lamellar
+Armour: 974
+ArmourBasePercentile: 0.4237
+Evasion: 1222
+EvasionBasePercentile: 0.4174
+Unique ID: 6ac8620330a37fcaf342aad4187fee61e2b3823b04e0a898f8e6b6fce9255409
+Item Level: 80
+Quality: 21
+Sockets: R-B-B-B-B-B
+LevelReq: 69
+Implicits: 1
++2 to Level of Socketed AoE Gems
+120% increased Armour and Evasion
++80 to maximum Life
+Aspect of the Cat has no Reservation
++2.00 seconds to Cat&apos;s Stealth Duration
+Gain up to your maximum number of Frenzy and Power Charges when you gain Cat&apos;s Stealth
+You have Phasing while you have Cat&apos;s Stealth
+Corrupted
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+		</Item>
+		<Item id="21">
+			Rarity: RARE
+Brood Spur
+Shagreen Boots
+Evasion: 273
+EvasionBasePercentile: 0.4167
+Unique ID: a131f1910d736c929aa3f23a038489bee4bbcec19662ebb829481eba171b75d1
+Shaper Item
+Item Level: 86
+Quality: 20
+Sockets: R-B-R-B
+LevelReq: 55
+Implicits: 1
+{crafted}Damage Penetrates 10% of Enemy Elemental Resistances if you haven&apos;t Killed Recently
++69 to maximum Life
++43% to Fire Resistance
++32% to Chaos Resistance
+25% increased Movement Speed
+100% chance to Avoid being Chilled
+20% increased Cooldown Recovery Rate
+{crafted}20% increased Evasion Rating
+{crafted}+14 to maximum Life
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+		</Item>
+		<Item id="22">
+			Rarity: UNIQUE
+Timeclasp
+Moonstone Ring
+Unique ID: bbb3a5e6ce5ba5cfa6bc540d3e5beb9205297069599c26f17171bd2ced634efe
+Item Level: 83
+LevelReq: 44
+Implicits: 2
+Grants Level 21 Pride Skill
+Cannot be Poisoned
+15% increased Attack Speed
+11% increased Cast Speed
+20% reduced Skill Effect Duration
+8% of Damage taken Recouped as Mana
+11% of Damage taken Recouped as Life
+Unaffected by Temporal Chains
+Corrupted
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+		</Item>
+		<Item id="23">
+			Rarity: UNIQUE
+Elixir of the Unbroken Circle
+Iron Flask
+Unique ID: 27905cf06e6a1ced3103de49f2ffc7287a03002eb84e4f68cfd0fe6c719f366d
+Item Level: 85
+Quality: 20
+LevelReq: 27
+Implicits: 3
+{crafted}+60 to Maximum Charges
+{crafted}Gains no Charges during Effect
+Restores Ward on use
+40% increased Duration
+Recover 4% of Life per Endurance Charge on use
+Lose all Endurance Charges on use
+Gain 1 Endurance Charge per Second during Effect
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="8"/>
+		</Item>
+		<Item id="24">
+			Rarity: MAGIC
+Panicked Divine Life Flask of Perenniality
+Unique ID: fbd38c77c4fcc5f6bba4c744303fef28a72db6f3b7ca51a3e68c0b652cda1d3b
+Item Level: 82
+Quality: 20
+LevelReq: 64
+Implicits: 0
+11% reduced Amount Recovered
+Instant Recovery when on Low Life
+Recover an additional 40% of Flask&apos;s Life Recovery Amount over 10 seconds if used while not on Full Life
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="3"/>
+		</Item>
+		<Item variant="46" id="25">
+			Rarity: UNIQUE
+Impossible Escape
+Viridian Jewel
+League: Sentinel
+Variant: Acrobatics
+Variant: Ancestral Bond
+Variant: Arrow Dancing
+Variant: Avatar of Fire
+Variant: Blood Magic
+Variant: Call to Arms
+Variant: Chaos Inoculation
+Variant: Conduit
+Variant: Crimson Dance
+Variant: Divine Shield
+Variant: Doomsday
+Variant: Eldritch Battery
+Variant: Elemental Equilibrium
+Variant: Elemental Overload
+Variant: Eternal Youth
+Variant: Ghost Dance
+Variant: Ghost Reaver
+Variant: Glancing Blows
+Variant: Hex Master
+Variant: Imbalanced Guard
+Variant: Iron Grip
+Variant: Iron Reflexes
+Variant: Iron Will
+Variant: Lethe Shade
+Variant: Magebane
+Variant: Mind Over Matter
+Variant: Minion Instability
+Variant: Necromantic Aegis
+Variant: Pain Attunement
+Variant: Perfect Agony
+Variant: Point Blank
+Variant: Precise Technique
+Variant: Resolute Technique
+Variant: Runebinder
+Variant: Solipsism
+Variant: Supreme Decadence
+Variant: Supreme Ego
+Variant: The Agnostic
+Variant: The Impaler
+Variant: Unwavering Stance
+Variant: Vaal Pact
+Variant: Versatile Combatant
+Variant: Wicked Ward
+Variant: Wind Dancer
+Variant: Zealot&apos;s Oath
+Variant: Everything (QoL Test Variant)
+Selected Variant: 46
+Radius: Small
+Limited to: 1
+Implicits: 0
+{variant:1,46}Passives in radius of Acrobatics can be allocated without being connected to your tree
+{variant:2,46}Passives in radius of Ancestral Bond can be allocated without being connected to your tree
+{variant:46,3}Passives in radius of Arrow Dancing can be allocated without being connected to your tree
+{variant:46,4}Passives in radius of Avatar of Fire can be allocated without being connected to your tree
+{variant:5,46}Passives in radius of Blood Magic can be allocated without being connected to your tree
+{variant:46,6}Passives in radius of Call to Arms can be allocated without being connected to your tree
+{variant:7,46}Passives in radius of Chaos Inoculation can be allocated without being connected to your tree
+{variant:46,8}Passives in radius of Conduit can be allocated without being connected to your tree
+{variant:46,9}Passives in radius of Crimson Dance can be allocated without being connected to your tree
+{variant:10,46}Passives in radius of Divine Shield can be allocated without being connected to your tree
+{variant:11,46}Passives in radius of Doomsday can be allocated without being connected to your tree
+{variant:46,12}Passives in radius of Eldritch Battery can be allocated without being connected to your tree
+{variant:46,13}Passives in radius of Elemental Equilibrium can be allocated without being connected to your tree
+{variant:14,46}Passives in radius of Elemental Overload can be allocated without being connected to your tree
+{variant:15,46}Passives in radius of Eternal Youth can be allocated without being connected to your tree
+{variant:46,16}Passives in radius of Ghost Dance can be allocated without being connected to your tree
+{variant:17,46}Passives in radius of Ghost Reaver can be allocated without being connected to your tree
+{variant:46,18}Passives in radius of Glancing Blows can be allocated without being connected to your tree
+{variant:46,19}Passives in radius of Hex Master can be allocated without being connected to your tree
+{variant:20,46}Passives in radius of Imbalanced Guard can be allocated without being connected to your tree
+{variant:46,21}Passives in radius of Iron Grip can be allocated without being connected to your tree
+{variant:22,46}Passives in radius of Iron Reflexes can be allocated without being connected to your tree
+{variant:23,46}Passives in radius of Iron Will can be allocated without being connected to your tree
+{variant:46,24}Passives in radius of Lethe Shade can be allocated without being connected to your tree
+{variant:25,46}Passives in radius of Magebane can be allocated without being connected to your tree
+{variant:46,26}Passives in radius of Mind Over Matter can be allocated without being connected to your tree
+{variant:46,27}Passives in radius of Minion Instability can be allocated without being connected to your tree
+{variant:28,46}Passives in radius of Necromantic Aegis can be allocated without being connected to your tree
+{variant:46,29}Passives in radius of Pain Attunement can be allocated without being connected to your tree
+{variant:30,46}Passives in radius of Perfect Agony can be allocated without being connected to your tree
+{variant:31,46}Passives in radius of Point Blank can be allocated without being connected to your tree
+{variant:46,32}Passives in radius of Precise Technique can be allocated without being connected to your tree
+{variant:33,46}Passives in radius of Resolute Technique can be allocated without being connected to your tree
+{variant:34,46}Passives in radius of Runebinder can be allocated without being connected to your tree
+{variant:35,46}Passives in radius of Solipsism can be allocated without being connected to your tree
+{variant:46,36}Passives in radius of Supreme Decadence can be allocated without being connected to your tree
+{variant:46,37}Passives in radius of Supreme Ego can be allocated without being connected to your tree
+{variant:46,38}Passives in radius of The Agnostic can be allocated without being connected to your tree
+{variant:46,39}Passives in radius of The Impaler can be allocated without being connected to your tree
+{variant:40,46}Passives in radius of Unwavering Stance can be allocated without being connected to your tree
+{variant:46,41}Passives in radius of Vaal Pact can be allocated without being connected to your tree
+{variant:46,42}Passives in radius of Versatile Combatant can be allocated without being connected to your tree
+{variant:46,43}Passives in radius of Wicked Ward can be allocated without being connected to your tree
+{variant:44,46}Passives in radius of Wind Dancer can be allocated without being connected to your tree
+{variant:45,46}Passives in radius of Zealot&apos;s Oath can be allocated without being connected to your tree
+Corrupted
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+			<ModRange range="0.5" id="10"/>
+			<ModRange range="0.5" id="11"/>
+			<ModRange range="0.5" id="12"/>
+			<ModRange range="0.5" id="13"/>
+			<ModRange range="0.5" id="14"/>
+			<ModRange range="0.5" id="15"/>
+			<ModRange range="0.5" id="16"/>
+			<ModRange range="0.5" id="17"/>
+			<ModRange range="0.5" id="18"/>
+			<ModRange range="0.5" id="19"/>
+			<ModRange range="0.5" id="20"/>
+			<ModRange range="0.5" id="21"/>
+			<ModRange range="0.5" id="22"/>
+			<ModRange range="0.5" id="23"/>
+			<ModRange range="0.5" id="24"/>
+			<ModRange range="0.5" id="25"/>
+			<ModRange range="0.5" id="26"/>
+			<ModRange range="0.5" id="27"/>
+			<ModRange range="0.5" id="28"/>
+			<ModRange range="0.5" id="29"/>
+			<ModRange range="0.5" id="30"/>
+			<ModRange range="0.5" id="31"/>
+			<ModRange range="0.5" id="32"/>
+			<ModRange range="0.5" id="33"/>
+			<ModRange range="0.5" id="34"/>
+			<ModRange range="0.5" id="35"/>
+			<ModRange range="0.5" id="36"/>
+			<ModRange range="0.5" id="37"/>
+			<ModRange range="0.5" id="38"/>
+			<ModRange range="0.5" id="39"/>
+			<ModRange range="0.5" id="40"/>
+			<ModRange range="0.5" id="41"/>
+			<ModRange range="0.5" id="42"/>
+			<ModRange range="0.5" id="43"/>
+			<ModRange range="0.5" id="44"/>
+			<ModRange range="0.5" id="45"/>
+		</Item>
+		<Item variant="29" id="26">
+			Rarity: UNIQUE
+Impossible Escape
+Viridian Jewel
+League: Sentinel
+Variant: Acrobatics
+Variant: Ancestral Bond
+Variant: Arrow Dancing
+Variant: Avatar of Fire
+Variant: Blood Magic
+Variant: Call to Arms
+Variant: Chaos Inoculation
+Variant: Conduit
+Variant: Crimson Dance
+Variant: Divine Shield
+Variant: Doomsday
+Variant: Eldritch Battery
+Variant: Elemental Equilibrium
+Variant: Elemental Overload
+Variant: Eternal Youth
+Variant: Ghost Dance
+Variant: Ghost Reaver
+Variant: Glancing Blows
+Variant: Hex Master
+Variant: Imbalanced Guard
+Variant: Iron Grip
+Variant: Iron Reflexes
+Variant: Iron Will
+Variant: Lethe Shade
+Variant: Magebane
+Variant: Mind Over Matter
+Variant: Minion Instability
+Variant: Necromantic Aegis
+Variant: Pain Attunement
+Variant: Perfect Agony
+Variant: Point Blank
+Variant: Precise Technique
+Variant: Resolute Technique
+Variant: Runebinder
+Variant: Solipsism
+Variant: Supreme Decadence
+Variant: Supreme Ego
+Variant: The Agnostic
+Variant: The Impaler
+Variant: Unwavering Stance
+Variant: Vaal Pact
+Variant: Versatile Combatant
+Variant: Wicked Ward
+Variant: Wind Dancer
+Variant: Zealot&apos;s Oath
+Variant: Everything (QoL Test Variant)
+Selected Variant: 29
+Radius: Small
+Limited to: 1
+Implicits: 0
+{variant:1,46}Passives in radius of Acrobatics can be allocated without being connected to your tree
+{variant:2,46}Passives in radius of Ancestral Bond can be allocated without being connected to your tree
+{variant:46,3}Passives in radius of Arrow Dancing can be allocated without being connected to your tree
+{variant:46,4}Passives in radius of Avatar of Fire can be allocated without being connected to your tree
+{variant:5,46}Passives in radius of Blood Magic can be allocated without being connected to your tree
+{variant:46,6}Passives in radius of Call to Arms can be allocated without being connected to your tree
+{variant:7,46}Passives in radius of Chaos Inoculation can be allocated without being connected to your tree
+{variant:46,8}Passives in radius of Conduit can be allocated without being connected to your tree
+{variant:46,9}Passives in radius of Crimson Dance can be allocated without being connected to your tree
+{variant:10,46}Passives in radius of Divine Shield can be allocated without being connected to your tree
+{variant:11,46}Passives in radius of Doomsday can be allocated without being connected to your tree
+{variant:46,12}Passives in radius of Eldritch Battery can be allocated without being connected to your tree
+{variant:46,13}Passives in radius of Elemental Equilibrium can be allocated without being connected to your tree
+{variant:14,46}Passives in radius of Elemental Overload can be allocated without being connected to your tree
+{variant:15,46}Passives in radius of Eternal Youth can be allocated without being connected to your tree
+{variant:46,16}Passives in radius of Ghost Dance can be allocated without being connected to your tree
+{variant:17,46}Passives in radius of Ghost Reaver can be allocated without being connected to your tree
+{variant:46,18}Passives in radius of Glancing Blows can be allocated without being connected to your tree
+{variant:46,19}Passives in radius of Hex Master can be allocated without being connected to your tree
+{variant:20,46}Passives in radius of Imbalanced Guard can be allocated without being connected to your tree
+{variant:46,21}Passives in radius of Iron Grip can be allocated without being connected to your tree
+{variant:22,46}Passives in radius of Iron Reflexes can be allocated without being connected to your tree
+{variant:23,46}Passives in radius of Iron Will can be allocated without being connected to your tree
+{variant:46,24}Passives in radius of Lethe Shade can be allocated without being connected to your tree
+{variant:25,46}Passives in radius of Magebane can be allocated without being connected to your tree
+{variant:46,26}Passives in radius of Mind Over Matter can be allocated without being connected to your tree
+{variant:46,27}Passives in radius of Minion Instability can be allocated without being connected to your tree
+{variant:28,46}Passives in radius of Necromantic Aegis can be allocated without being connected to your tree
+{variant:46,29}Passives in radius of Pain Attunement can be allocated without being connected to your tree
+{variant:30,46}Passives in radius of Perfect Agony can be allocated without being connected to your tree
+{variant:31,46}Passives in radius of Point Blank can be allocated without being connected to your tree
+{variant:46,32}Passives in radius of Precise Technique can be allocated without being connected to your tree
+{variant:33,46}Passives in radius of Resolute Technique can be allocated without being connected to your tree
+{variant:34,46}Passives in radius of Runebinder can be allocated without being connected to your tree
+{variant:35,46}Passives in radius of Solipsism can be allocated without being connected to your tree
+{variant:46,36}Passives in radius of Supreme Decadence can be allocated without being connected to your tree
+{variant:46,37}Passives in radius of Supreme Ego can be allocated without being connected to your tree
+{variant:46,38}Passives in radius of The Agnostic can be allocated without being connected to your tree
+{variant:46,39}Passives in radius of The Impaler can be allocated without being connected to your tree
+{variant:40,46}Passives in radius of Unwavering Stance can be allocated without being connected to your tree
+{variant:46,41}Passives in radius of Vaal Pact can be allocated without being connected to your tree
+{variant:46,42}Passives in radius of Versatile Combatant can be allocated without being connected to your tree
+{variant:46,43}Passives in radius of Wicked Ward can be allocated without being connected to your tree
+{variant:44,46}Passives in radius of Wind Dancer can be allocated without being connected to your tree
+{variant:45,46}Passives in radius of Zealot&apos;s Oath can be allocated without being connected to your tree
+Corrupted
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+			<ModRange range="0.5" id="5"/>
+			<ModRange range="0.5" id="6"/>
+			<ModRange range="0.5" id="7"/>
+			<ModRange range="0.5" id="8"/>
+			<ModRange range="0.5" id="9"/>
+			<ModRange range="0.5" id="10"/>
+			<ModRange range="0.5" id="11"/>
+			<ModRange range="0.5" id="12"/>
+			<ModRange range="0.5" id="13"/>
+			<ModRange range="0.5" id="14"/>
+			<ModRange range="0.5" id="15"/>
+			<ModRange range="0.5" id="16"/>
+			<ModRange range="0.5" id="17"/>
+			<ModRange range="0.5" id="18"/>
+			<ModRange range="0.5" id="19"/>
+			<ModRange range="0.5" id="20"/>
+			<ModRange range="0.5" id="21"/>
+			<ModRange range="0.5" id="22"/>
+			<ModRange range="0.5" id="23"/>
+			<ModRange range="0.5" id="24"/>
+			<ModRange range="0.5" id="25"/>
+			<ModRange range="0.5" id="26"/>
+			<ModRange range="0.5" id="27"/>
+			<ModRange range="0.5" id="28"/>
+			<ModRange range="0.5" id="29"/>
+			<ModRange range="0.5" id="30"/>
+			<ModRange range="0.5" id="31"/>
+			<ModRange range="0.5" id="32"/>
+			<ModRange range="0.5" id="33"/>
+			<ModRange range="0.5" id="34"/>
+			<ModRange range="0.5" id="35"/>
+			<ModRange range="0.5" id="36"/>
+			<ModRange range="0.5" id="37"/>
+			<ModRange range="0.5" id="38"/>
+			<ModRange range="0.5" id="39"/>
+			<ModRange range="0.5" id="40"/>
+			<ModRange range="0.5" id="41"/>
+			<ModRange range="0.5" id="42"/>
+			<ModRange range="0.5" id="43"/>
+			<ModRange range="0.5" id="44"/>
+			<ModRange range="0.5" id="45"/>
+		</Item>
+		<Item id="27">
+			Rarity: RARE
+25 DIV Cataclysm Shine
+Cobalt Jewel
+Item Level: 81
+Implicits: 0
+{fractured}7% increased maximum Life
++12% to Global Critical Strike Multiplier
++18% to Critical Strike Multiplier with Lightning Skills
++14% to Critical Strike Multiplier with Elemental Skills
+			<ModRange range="0.5" id="1"/>
+			<ModRange range="0.5" id="2"/>
+			<ModRange range="0.5" id="3"/>
+			<ModRange range="0.5" id="4"/>
+		</Item>
+		<ItemSet useSecondWeaponSet="false" id="1">
+			<Slot itemPbURL="" itemId="0" name="Helmet Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="10" name="Flask 3" active="true"/>
+			<Slot itemPbURL="" itemId="9" name="Flask 4"/>
+			<Slot itemPbURL="" itemId="13" name="Weapon 1"/>
+			<Slot itemPbURL="" itemId="12" name="Amulet"/>
+			<Slot itemPbURL="" itemId="15" name="Helmet"/>
+			<Slot itemPbURL="" itemId="18" name="Weapon 2"/>
+			<Slot itemPbURL="" itemId="20" name="Body Armour"/>
+			<Slot itemPbURL="" itemId="19" name="Gloves"/>
+			<Slot itemPbURL="" itemId="21" name="Boots"/>
+			<Slot itemPbURL="" itemId="22" name="Ring 1"/>
+			<Slot itemPbURL="" itemId="11" name="Ring 2"/>
+			<SocketIdURL itemPbURL="" name="Jewel 34483" nodeId="34483"/>
+			<SocketIdURL itemPbURL="" name="Jewel 21984" nodeId="21984"/>
+			<SocketIdURL itemPbURL="" name="Jewel 13170" nodeId="13170"/>
+			<SocketIdURL itemPbURL="" name="Jewel 9797" nodeId="9797"/>
+			<Slot itemPbURL="" itemId="14" name="Flask 5"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap Abyssal Socket 2"/>
+			<SocketIdURL itemPbURL="" name="Jewel 64583" nodeId="64583"/>
+			<SocketIdURL itemPbURL="" name="Jewel 61834" nodeId="61834"/>
+			<Slot itemPbURL="" itemId="0" name="Helmet Abyssal Socket 3"/>
+			<SocketIdURL itemPbURL="" name="Jewel 61419" nodeId="61419"/>
+			<SocketIdURL itemPbURL="" name="Jewel 60735" nodeId="60735"/>
+			<Slot itemPbURL="" itemId="0" name="Helmet Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Helmet Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Helmet Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Body Armour Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Body Armour Abyssal Socket 2"/>
+			<SocketIdURL itemPbURL="" name="Jewel 41263" nodeId="41263"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Body Armour Abyssal Socket 3"/>
+			<SocketIdURL itemPbURL="" name="Jewel 33989" nodeId="33989"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Swap"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Body Armour Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Belt Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Belt Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap"/>
+			<Slot itemPbURL="" itemId="17" name="Belt"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 1 Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Gloves Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Gloves Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Gloves Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Gloves Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Boots Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Boots Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Swap Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Boots Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Boots Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Boots Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Boots Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Abyssal Socket 3"/>
+			<Slot itemPbURL="" itemId="24" name="Flask 1"/>
+			<Slot itemPbURL="" itemId="0" name="Belt Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Belt Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="16" name="Belt Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Abyssal Socket 5"/>
+			<Slot itemPbURL="" itemId="0" name="Gloves Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Belt Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="0" name="Weapon 2 Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Body Armour Abyssal Socket 4"/>
+			<Slot itemPbURL="" itemId="0" name="Body Armour Abyssal Socket 6"/>
+			<Slot itemPbURL="" itemId="0" name="Helmet Abyssal Socket 1"/>
+			<Slot itemPbURL="" itemId="0" name="Gloves Abyssal Socket 2"/>
+			<Slot itemPbURL="" itemId="23" name="Flask 2" active="true"/>
+		</ItemSet>
+	</Items>
+	<Calcs>
+		<Input name="skill_number" number="5"/>
+		<Input name="misc_buffMode" string="EFFECTIVE"/>
+		<Section collapsed="false" id="SkillSelect" subsection="ViewSkillDetails"/>
+		<Section collapsed="false" id="HitDamage" subsection="SkillHitDamage"/>
+		<Section collapsed="false" id="Warcries" subsection="ExertingWarcries"/>
+		<Section collapsed="false" id="Dot" subsection="SkillDamageoverTime"/>
+		<Section collapsed="false" id="Speed" subsection="AttackCastRate"/>
+		<Section collapsed="false" id="Crit" subsection="Crits"/>
+		<Section collapsed="false" id="Impale" subsection="Impale"/>
+		<Section collapsed="false" id="SkillTypeStats" subsection="SkilltypespecificStats"/>
+		<Section collapsed="false" id="HitChance" subsection="Accuracy"/>
+		<Section collapsed="false" id="Bleed" subsection="Bleed"/>
+		<Section collapsed="false" id="Poison" subsection="Poison"/>
+		<Section collapsed="false" id="Ignite" subsection="Ignite"/>
+		<Section collapsed="false" id="Decay" subsection="Decay"/>
+		<Section collapsed="false" id="LeechGain" subsection="LeechGainonHit"/>
+		<Section collapsed="false" id="EleAilments" subsection="NonDamagingAilments"/>
+		<Section collapsed="false" id="MiscEffects" subsection="OtherEffects"/>
+		<Section collapsed="false" id="Attributes" subsection="Attributes"/>
+		<Section collapsed="false" id="Life" subsection="Life"/>
+		<Section collapsed="false" id="Mana" subsection="Mana"/>
+		<Section collapsed="false" id="EnergyShield" subsection="EnergyShield"/>
+		<Section collapsed="false" id="Ward" subsection="Ward"/>
+		<Section collapsed="false" id="Resist" subsection="Resists"/>
+		<Section collapsed="false" id="Armour" subsection="Armour"/>
+		<Section collapsed="false" id="Evasion" subsection="Evasion"/>
+		<Section collapsed="false" id="DamageAvoidance" subsection="DamageAvoidance"/>
+		<Section collapsed="false" id="DamageAvoidance" subsection="Block"/>
+		<Section collapsed="false" id="DamageAvoidance" subsection="Dodge"/>
+		<Section collapsed="false" id="DamageAvoidance" subsection="SpellSuppression"/>
+		<Section collapsed="false" id="Flasks" subsection="Flasks"/>
+		<Section collapsed="true" id="Flasks" subsection="UtilityFlasks"/>
+		<Section collapsed="true" id="Flasks" subsection="LifeFlasks"/>
+		<Section collapsed="true" id="Flasks" subsection="ManaFlasks"/>
+		<Section collapsed="true" id="Rage" subsection="Rage"/>
+		<Section collapsed="false" id="MiscDefences" subsection="OtherDefences"/>
+		<Section collapsed="false" id="MiscDefences" subsection="StunDuration"/>
+		<Section collapsed="true" id="MiscDefences" subsection="OtherAvoidance"/>
+		<Section collapsed="true" id="MiscDefences" subsection="OtherAilmentDefences"/>
+		<Section collapsed="false" id="DamageTaken" subsection="DamageTaken"/>
+		<Section collapsed="false" id="DamageTaken" subsection="DamagingHits"/>
+		<Section collapsed="false" id="DamageTaken" subsection="EffectiveHealthPool"/>
+		<Section collapsed="false" id="DamageTaken" subsection="MaximumHitTaken"/>
+		<Section collapsed="false" id="DamageTaken" subsection="DotsandDegens"/>
+		<Section collapsed="true" id="DamageTaken" subsection="RecoupandHitTakenOverTime"/>
+	</Calcs>
+	<Notes>
+		This is pretty much the strongest build I ever made.
+
+
+Pros
+All content, fast sanctun runner, all uber bosses easily done, fast mapper
+Imune to all ailments, stun, corrupted blood, temporal chains, elemental weakness
+Can do all map mods
+Super fast speed
+Huge AoE
+
+
+Cons
+Really tight gearing, so not so easy to change much
+Need to buy some tattoos
+	</Notes>
+	<TreeView zoomY="895.75416409031" searchStr="" zoomX="-1912.3840518343" showStatDifferences="true" zoomLevel="10"/>
+	<Party destination="All" append="false" ShowAdvanceTools="false"/>
+	<Tree activeSpec="2">
+		<Spec nodes="65875,10829,64583,21984,27656,9586,64265,41635,32091,27788,10511,49929,31703,12873,22618,39861,47507,61981,12143,61419,15549,29993,19083,9014,21835,35894,56158,14090,18769,16954,60440,60180,48778,59606,39718,32710,40362,62744,49379,63194,29454,19287,28754,13170,18182,12850,34723,28574,4207,65894,857,24496,15117,4367,37671,28859,55686,38129,36287,63251,65895,4242,61653,25260,12888,65872,49605,45593,21958,9797,4036,52099,20546,65888,6538,6064,57746,10153,58229,5296,61834,49978,18770,292,11239,36858,60405,21033,20812,53114,61875,62490,8938,65881,56075,48239,25058,19501,33310,35283,56295,12783,25411,12801,14936,44103,21264,49900,52714,47306,55571,63861,20528,6799,53456,15228,65890,44683,33755,51786,1461,44184,46277,9261,65898,27415,21301,17814,41263,65528,33989,11334,16167" ascendClassId="1" treeVersion="3_22" classId="6" title="Lvl 100" masteryEffects="{65528,28676},{12873,4319},{63861,2987},{29993,21730},{9586,9986},{34723,40307},{857,31556},{292,47642}">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABgYBeypN_EdV4GwIJXL7CaKjfVtsjCkPwwl71zJJWFqbtbmT8h0vb-_rPL11KUqLIzZVS4w22143CklRQjrsGOsUvoro1psmf8adqvUYwOP22nMOS1dwUjNyRwYyMoejb54QbwNZX7A7DREPkydwu9mGlPGNv_cTEJLw1WKsMljBxbIZVcYmRQ_Ey4NQQhmKF7DhkiepFLDxisM6SVIBJCvnj_rr9VIpUUzPevGz9Boi6tsLvG9h4kwtgh6J09vnMe9jQzIBOlisR1MQwuzN6rjK2RP5dVAwGo_Q0Dt8g9vKSgW1rJi0xSQtaxdTNUWWoS__-ITFLEY_JwgBUwFmAWcBUAFgAVkBYgFqCCcCJXIQ3zJJVOJ1KZ1zh6N7RANZuhoBJAur-XVwBP_4
+			</URL>
+			<Sockets>
+				<Socket itemId="3" nodeId="61419"/>
+				<Socket itemId="7" nodeId="41263"/>
+				<Socket itemId="8" nodeId="13170"/>
+				<Socket itemId="2" nodeId="61834"/>
+				<Socket itemId="5" nodeId="21984"/>
+				<Socket itemId="1" nodeId="9797"/>
+				<Socket itemId="6" nodeId="33989"/>
+				<Socket itemId="4" nodeId="64583"/>
+			</Sockets>
+			<Overrides>
+				<Override nodeId="5296" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Sky" icon="Art/2DArt/SkillIcons/passives/ElementalResistance2.png">
+					+3% to all Elemental Resistances
+				</Override>
+				<Override nodeId="10829" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="49978" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="60440" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Sky" icon="Art/2DArt/SkillIcons/passives/ElementalResistance2.png">
+					+3% to all Elemental Resistances
+				</Override>
+				<Override nodeId="60180" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Storm" icon="Art/2DArt/SkillIcons/passives/HinekoraPassiveIcon3.png">
+					+1% to maximum Lightning Resistance
+					+1 to Maximum Power Charges
+					Limited to 1 Attribute Notable Tattoo
+				</Override>
+				<Override nodeId="36858" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="59606" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="39718" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png" dn="Tattoo of the Tasalio Tideshifter" icon="Art/2DArt/SkillIcons/passives/stundex.png">
+					15% chance to Avoid being Stunned
+				</Override>
+				<Override nodeId="44184" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Sky" icon="Art/2DArt/SkillIcons/passives/ElementalResistance2.png">
+					+3% to all Elemental Resistances
+				</Override>
+				<Override nodeId="32710" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="56295" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="36287" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="8938" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="33310" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Sky" icon="Art/2DArt/SkillIcons/passives/ElementalResistance2.png">
+					+3% to all Elemental Resistances
+				</Override>
+				<Override nodeId="49605" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Sky" icon="Art/2DArt/SkillIcons/passives/ElementalResistance2.png">
+					+3% to all Elemental Resistances
+				</Override>
+				<Override nodeId="16167" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="49900" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="18182" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="20546" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="6538" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="28574" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="52714" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Journey Tattoo of the Body" icon="Art/2DArt/SkillIcons/passives/HinekoraPassiveIcon1.png">
+					+25 to maximum Life per Allocated Journey Tattoo of the Body
+				</Override>
+				<Override nodeId="51786" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="1461" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="46277" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="24496" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="15117" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Sky" icon="Art/2DArt/SkillIcons/passives/ElementalResistance2.png">
+					+3% to all Elemental Resistances
+				</Override>
+				<Override nodeId="41635" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="10153" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Journey Tattoo of the Body" icon="Art/2DArt/SkillIcons/passives/HinekoraPassiveIcon1.png">
+					+25 to maximum Life per Allocated Journey Tattoo of the Body
+				</Override>
+				<Override nodeId="27656" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="4367" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="19501" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="39861" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="53456" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+			</Overrides>
+		</Spec>
+		<Spec nodes="65875,10829,64583,21984,27656,11497,9586,64265,41635,32091,27788,10511,49929,31703,22618,39861,65528,61981,12143,61419,15549,29993,19083,9014,21835,35894,56158,14090,18769,16954,60440,48778,53114,39718,32710,40362,62744,49379,63194,9788,29454,19287,28754,13170,18182,12850,34723,28574,4207,857,24496,15117,4367,37671,28859,55686,34483,38129,36287,63251,14292,4242,61653,25260,12888,65872,49605,27415,53652,45593,21958,9797,4036,19501,65881,20546,65888,6538,6064,17814,58229,5296,61834,49978,18770,292,11239,36858,60405,21033,44184,60735,61875,20812,47306,25058,56075,48239,33989,49900,47507,25439,59606,12783,12801,25411,52099,21264,20807,44103,8938,56295,63861,35283,20528,15228,65890,44683,14936,51786,1461,55571,46277,9261,65898,16167,21301,53456,238,41263,6799,11334,33310" ascendClassId="1" treeVersion="3_22" classId="6" title="Lvl 96" masteryEffects="{65528,28676},{63861,2987},{29993,21730},{9586,9986},{34723,40307},{857,31556},{292,47642}">
+			<URL>
+				https://www.pathofexile.com/passive-skill-tree/AAAABgYBfSpN_EdV4GwILOklcvsJoqN9W2yMKQ_DCXvXWFqbtf_48h0vb-_rPL11KUqLIzZVS4w22143CklRQjrsGL6Kz3qbJn_Gnar1GMDj9tomPHMOS1dwUjNyRwYyMoejb54QbwNZX7A7DREPkydwu9mGhrOU8Y2_9xM31BCS8NVirDJYwcVrF9GUshlVxiZFD8RMLVBCGYoXsEWWFLDxisM6SVIBJCvnj_rr9VIprJjtP_GzUUy4ymHi2wu8b4TFwuy5k2Nf6NYx7zIBY0PLg1MQUUesRyLq2-f5dYnTUDA7fDpYykoFtdkTtMUkLT8nUzXQ0ADuoS8ajyxGgh4GAVMBUAFZAWABYgFqBycCJXJwBP_4VOJ1KZ1zh6N7RANZuhoBJAur-XU=
+			</URL>
+			<Sockets>
+				<Socket itemId="2" nodeId="61834"/>
+				<Socket itemId="4" nodeId="64583"/>
+				<Socket itemId="27" nodeId="34483"/>
+				<Socket itemId="5" nodeId="21984"/>
+				<Socket itemId="8" nodeId="13170"/>
+				<Socket itemId="6" nodeId="33989"/>
+				<Socket itemId="7" nodeId="41263"/>
+				<Socket itemId="3" nodeId="61419"/>
+				<Socket itemId="26" nodeId="60735"/>
+				<Socket itemId="25" nodeId="48768"/>
+				<Socket itemId="1" nodeId="9797"/>
+			</Sockets>
+			<Overrides>
+				<Override nodeId="5296" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Sky" icon="Art/2DArt/SkillIcons/passives/ElementalResistance2.png">
+					+3% to all Elemental Resistances
+				</Override>
+				<Override nodeId="10829" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="49978" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="5456" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Journey Tattoo of the Body" icon="Art/2DArt/SkillIcons/passives/HinekoraPassiveIcon1.png">
+					+25 to maximum Life per Allocated Journey Tattoo of the Body
+				</Override>
+				<Override nodeId="60440" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Sky" icon="Art/2DArt/SkillIcons/passives/ElementalResistance2.png">
+					+3% to all Elemental Resistances
+				</Override>
+				<Override nodeId="60180" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Storm" icon="Art/2DArt/SkillIcons/passives/HinekoraPassiveIcon3.png">
+					+1% to maximum Lightning Resistance
+					+1 to Maximum Power Charges
+					Limited to 1 Attribute Notable Tattoo
+				</Override>
+				<Override nodeId="36858" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="59606" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="39718" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/TasalioTribePassiveBG.png" dn="Tattoo of the Tasalio Tideshifter" icon="Art/2DArt/SkillIcons/passives/stundex.png">
+					15% chance to Avoid being Stunned
+				</Override>
+				<Override nodeId="44184" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Sky" icon="Art/2DArt/SkillIcons/passives/ElementalResistance2.png">
+					+3% to all Elemental Resistances
+				</Override>
+				<Override nodeId="32710" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="56295" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="36287" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="8938" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="33310" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Sky" icon="Art/2DArt/SkillIcons/passives/ElementalResistance2.png">
+					+3% to all Elemental Resistances
+				</Override>
+				<Override nodeId="49605" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Sky" icon="Art/2DArt/SkillIcons/passives/ElementalResistance2.png">
+					+3% to all Elemental Resistances
+				</Override>
+				<Override nodeId="16167" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="49900" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="18182" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="20546" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="6538" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="28574" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="52714" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Journey Tattoo of the Body" icon="Art/2DArt/SkillIcons/passives/HinekoraPassiveIcon1.png">
+					+25 to maximum Life per Allocated Journey Tattoo of the Body
+				</Override>
+				<Override nodeId="51786" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="1461" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="15027" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Journey Tattoo of the Body" icon="Art/2DArt/SkillIcons/passives/HinekoraPassiveIcon1.png">
+					+25 to maximum Life per Allocated Journey Tattoo of the Body
+				</Override>
+				<Override nodeId="46277" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="24496" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="15117" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Sky" icon="Art/2DArt/SkillIcons/passives/ElementalResistance2.png">
+					+3% to all Elemental Resistances
+				</Override>
+				<Override nodeId="41635" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="10153" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Journey Tattoo of the Body" icon="Art/2DArt/SkillIcons/passives/HinekoraPassiveIcon1.png">
+					+25 to maximum Life per Allocated Journey Tattoo of the Body
+				</Override>
+				<Override nodeId="27656" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="4367" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="19501" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+				<Override nodeId="39861" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/RamakoTribePassiveBG.png" dn="Tattoo of the Ramako Shaman" icon="Art/2DArt/SkillIcons/passives/SpellSuppresionNode.png">
+					+2% chance to Suppress Spell Damage
+				</Override>
+				<Override nodeId="53456" activeEffectImage="Art/2DArt/UIImages/InGame/AncestralTrial/PassiveTreeTattoos/HinekoraPassiveBG.png" dn="Honoured Tattoo of the Oak" icon="Art/2DArt/SkillIcons/passives/life1.png">
+					2% increased maximum Life
+				</Override>
+			</Overrides>
+		</Spec>
+	</Tree>
+</PathOfBuilding>
